@@ -1771,4 +1771,24 @@ textarea.form-control {
     .fidelity .nav-link:hover {
       background-color: #41C752; }
 
+.nav-1 {
+  border: 0; }
+  .nav-1 .nav-item {
+    border: 0;
+    width: 50%;
+    text-align: center;
+    border-bottom: 2px solid #dee2e6; }
+    .nav-1 .nav-item .step {
+      color: #777777;
+      background: #F7FAFC;
+      border-color: #F7FAFC; }
+    .nav-1 .nav-item.active {
+      border-bottom: 2px solid #41C752; }
+      .nav-1 .nav-item.active .step {
+        color: #fff;
+        background: #41C752;
+        border-color: #41C752; }
+      .nav-1 .nav-item.active .align-middle {
+        color: #41C752 !important; }
+
 /*# sourceMappingURL=style.css.map */
