@@ -1771,24 +1771,55 @@ textarea.form-control {
     .fidelity .nav-link:hover {
       background-color: #41C752; }
 
-.nav-1 {
-  border: 0; }
-  .nav-1 .nav-item {
-    border: 0;
-    width: 50%;
-    text-align: center;
-    border-bottom: 2px solid #dee2e6; }
-    .nav-1 .nav-item .step {
+.progress-wrapper-4 {
+  font-size: 16px; }
+  @media (max-width: 575.98px) {
+    .progress-wrapper-4 {
+      font-size: 11px; } }
+  .progress-wrapper-4 .progress {
+    position: static;
+    width: 100%; }
+  .progress-wrapper-4 .progress-bar {
+    width: 50%; }
+  .progress-wrapper-4 .col {
+    padding-bottom: 1rem;
+    transition: 0.3s; }
+    .progress-wrapper-4 .col .step {
       color: #777777;
       background: #F7FAFC;
-      border-color: #F7FAFC; }
-    .nav-1 .nav-item.active {
-      border-bottom: 2px solid #41C752; }
-      .nav-1 .nav-item.active .step {
+      border-color: #F7FAFC;
+      position: relative;
+      transition: 0.3s; }
+      .progress-wrapper-4 .col .step:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 9px;
+        height: 7px;
+        background: url("../img/check.svg") no-repeat center center;
+        background-size: cover;
+        opacity: 0;
+        transition: 0.3s; }
+    .progress-wrapper-4 .col:nth-child(1) {
+      color: #41C752; }
+      .progress-wrapper-4 .col:nth-child(1) .step {
         color: #fff;
         background: #41C752;
         border-color: #41C752; }
-      .nav-1 .nav-item.active .align-middle {
-        color: #41C752 !important; }
+  .progress-wrapper-4.step-2-active .progress-bar {
+    width: 100%; }
+  .progress-wrapper-4.step-2-active .col:nth-child(1) .step {
+    color: #8ede98;
+    background-color: #8ede98; }
+    .progress-wrapper-4.step-2-active .col:nth-child(1) .step:after {
+      opacity: 1; }
+  .progress-wrapper-4.step-2-active .col:nth-child(2) {
+    color: #41C752; }
+    .progress-wrapper-4.step-2-active .col:nth-child(2) .step {
+      color: #fff;
+      background: #41C752;
+      border-color: #41C752; }
 
 /*# sourceMappingURL=style.css.map */
