@@ -1822,4 +1822,20 @@ textarea.form-control {
       background: #41C752;
       border-color: #41C752; }
 
+.calendar {
+  width: 25px;
+  height: 25px;
+  border-radius: 100px;
+  display: inline-block;
+  margin-right: 0.5rem;
+  background: #DDEFE2 url(../img/art/calendar.svg) center center no-repeat;
+  background-size: 11px;
+  vertical-align: middle; }
+  .calendar.calendar-2 {
+    width: 34px;
+    height: 34px;
+    background-size: 15px; }
+  .calendar ~ * {
+    vertical-align: middle; }
+
 /*# sourceMappingURL=style.css.map */
