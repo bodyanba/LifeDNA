@@ -1838,4 +1838,7 @@ textarea.form-control {
   .calendar ~ * {
     vertical-align: middle; }
 
+.canvas {
+  height: 350px; }
+
 /*# sourceMappingURL=style.css.map */
