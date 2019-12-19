@@ -6,7 +6,7 @@ $(document).ready(function() {
     loop: true,
     nav: true,
     dots: false,
-    smartSpeed : 1000,
+    smartSpeed: 1000,
     navText: ["", ""]
   });
 
@@ -17,7 +17,7 @@ $(document).ready(function() {
 		  margin: 20,
 		  nav: true,
 		  autoHeight: true,
-		  smartSpeed : 1000,
+		  smartSpeed: 1000,
 		  navText: ["", ""],
 		  onInitialized: function(e) {
 		    var index = e.item.index + 1,
@@ -30,11 +30,40 @@ $(document).ready(function() {
 		});
 	});
 
-	$(".owl-3").owlCarousel({
+	var owl3 = $(".owl-3");
+	owl3.owlCarousel({
     items: 1,
     dots: false,
-    smartSpeed : 1000,
+    smartSpeed: 1000,
+    autoHeight: true,
+    margin: 30,
+    mouseDrag: false,
+    touchDrag: false
   });
+
+	owl3.on("click", "input[type='radio'], .btn.btn-success", function() {
+		owl3.trigger('next.owl.carousel');
+	}).on("click", ".back", function() {
+		owl3.trigger('prev.owl.carousel');
+	}).on("change", ".form-control", function() {
+		var slideBtn = $(this).closest(".slide").find(".btn.btn-success");
+		if( $(this).val() ) {
+			slideBtn.removeAttr("disabled");
+		} else {
+			slideBtn.attr("disabled", "disabled");
+		};
+	}).on("change", "input[type='checkbox']", function() {
+		var slide = $(this).closest(".slide");
+		var slideBtn = slide.find(".btn.btn-success");
+		slide.find("input[type='checkbox']").each(function() {
+			if( $(this).is(":checked") ) {
+				slideBtn.removeAttr("disabled");
+				return false;
+			} else {
+				slideBtn.attr("disabled", "disabled");
+			};
+		});
+	});
 
 	$(".play-button").on("click", function(){
 		$(this).parent().fadeOut();

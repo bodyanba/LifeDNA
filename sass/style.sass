@@ -205,13 +205,13 @@ h6, .h6
 .btn-success
 	background-color: $color-success
 	border-color: $color-success
-	&:hover
+	&:hover:not(:disabled)
 		background-color: $color-success-2
 		border-color: $color-success-2
 .btn-outline-success
 	color: $color-gray-2
 	border-color: $color-success
-	&:hover 
+	&:hover:not(:disabled)
 		background-color: $color-success
 		border-color: $color-success
 		color: #fff !important
@@ -1841,13 +1841,13 @@ textarea.form-control
 .canvas
 	height: 350px
 
-
 .radio-group-2
-	font-size: 18px
 	display: block
-	margin-bottom: 20px
 	background-color: #fff
-	span
+	margin-bottom: 30px
+	@media (max-width: 575.98px)
+		margin-bottom: 15px
+	> div
 		color: $color-gray-2
 		display: block
 		border: 2px solid #ededed
@@ -1856,19 +1856,54 @@ textarea.form-control
 		transition: .3s
 		cursor: pointer
 		box-shadow: $shadow
+		position: relative
 		&:hover
 			border-color: $color-success
 	input
 		display: none
 		&:checked
-			~ span
+			~ div
+				border-color: $color-success
+				.fz-18
+					color: #000
+					font-weight: bold
+	&.checkbox-group-2
+		> div 
+			&:before
+				content: ''
+				position: absolute
+				top: 10px
+				right: 10px
+				width: 22px
+				height: 22px
+				border: 1px solid #e8e8e8
+				border-radius: 100px
+				background-color: #f6f9fb
+				background-repeat: no-repeat
+				background-position: center center
+				transition: .3s
+		&:not(.checkbox-group-3)
+			> div 
+				padding-right: 40px
+		input
+			&:checked
+				~ div
+					&:before 
+						border-color: $color-success
+						background-color: $color-success
+						background-image:  url(../img/check.svg)
+	&.checkbox-group-3
+		> div 
+			padding-top: 50px
+			padding-bottom: 50px
+			.fz-18
 				color: #000
 				font-weight: bold
-				border-color: $color-success
+				margin-bottom: 10px
 
 .owl-3
-	.a1 
-		img 
-	.form-control 
-		margin-bottom: 106px
+	.owl-item 
+		img
+			width: auto
+			display: inline-block
 
