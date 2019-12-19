@@ -1841,4 +1841,30 @@ textarea.form-control {
 .canvas {
   height: 350px; }
 
+.radio-group-2 {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 20px;
+  background-color: #fff; }
+  .radio-group-2 span {
+    color: #8C9EA4;
+    display: block;
+    border: 2px solid #ededed;
+    border-radius: 3px;
+    padding: 22px 15px;
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 0 3px 13px rgba(0, 0, 0, 0.06); }
+    .radio-group-2 span:hover {
+      border-color: #41C752; }
+  .radio-group-2 input {
+    display: none; }
+    .radio-group-2 input:checked ~ span {
+      color: #000;
+      font-weight: bold;
+      border-color: #41C752; }
+
+.owl-3 .form-control {
+  margin-bottom: 106px; }
+
 /*# sourceMappingURL=style.css.map */

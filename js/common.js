@@ -30,6 +30,12 @@ $(document).ready(function() {
 		});
 	});
 
+	$(".owl-3").owlCarousel({
+    items: 1,
+    dots: false,
+    smartSpeed : 1000,
+  });
+
 	$(".play-button").on("click", function(){
 		$(this).parent().fadeOut();
 	});
