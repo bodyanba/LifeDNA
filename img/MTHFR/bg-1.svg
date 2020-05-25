@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="601" viewBox="0 0 1440 601">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#158a9b"/>
+      <stop offset="1" stop-color="#46d5a0"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_61" data-name="Rectangle 61" width="1440" height="601" transform="translate(0 1717)" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="gray" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(0 -1717)" clip-path="url(#clip-path)">
+    <rect id="Rectangle_54" data-name="Rectangle 54" width="1440" height="601" transform="translate(0 1717)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_52" data-name="Rectangle 52" width="311.74" height="311.74" rx="29" transform="translate(1008.233 2297.528) rotate(-135)" opacity="0.4" fill="url(#linear-gradient-3)" style="mix-blend-mode: soft-light;isolation: isolate"/>
+    <rect id="Rectangle_53" data-name="Rectangle 53" width="208.391" height="208.391" rx="29" transform="translate(790.388 2180.407) rotate(-135)" opacity="0.4" fill="url(#linear-gradient-3)" style="mix-blend-mode: soft-light;isolation: isolate"/>
+    <rect id="Rectangle_55" data-name="Rectangle 55" width="208.391" height="208.391" rx="29" transform="translate(1447.388 2033.407) rotate(-135)" opacity="0.4" fill="url(#linear-gradient-3)" style="mix-blend-mode: soft-light;isolation: isolate"/>
+    <rect id="Rectangle_56" data-name="Rectangle 56" width="208.391" height="208.391" rx="29" transform="translate(1484.388 2131.407) rotate(-135)" opacity="0.4" fill="url(#linear-gradient-3)" style="mix-blend-mode: soft-light;isolation: isolate"/>
+  </g>
+</svg>

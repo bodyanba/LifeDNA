@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>LifeDNA</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="libs/owl-carousel-2/owl.carousel.min.css">
+		<link rel="stylesheet" href="libs/owl-carousel-2/owl.theme.default.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<nav class="navbar navbar-2 navbar-light bg-white sticky-top navbar-expand-lg">
+			<div class="container-fluid">
+				<button class="navbar-toggler mr-3" id="sandwich">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+				<a class="navbar-brand mr-auto" href="home.html">
+					<img src="img/logo.svg" alt="">
+				</a>
+				<div class="dropdown">
+					<span class="dropdown-t" data-toggle="dropdown">
+						<span class="avatar" style="background-image: url(img/avatar.png)"></span>
+						<h6 class="ml-2 mb-0 d-none d-md-inline font-weight-normal">Admin LifeDNA</h6>
+						<img src="img/arrow.svg" alt="" class="ml-1">
+					</span>
+					<div class="dropdown-menu dropdown-menu-right">
+						<a class="dropdown-item" href="#!">Profile</a>
+						<a class="dropdown-item" href="#!">Logout</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<div class="dashboard-content row no-gutters">
+			<div class="col-auto sidebar">
+				<ul class="nav nav-sub-2 flex-column">
+
+					<li class="nav-item">
+						<a href="#!" class="nav-link">
+							<span class="svg">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+								  <path class="path" data-name="Path 150" d="M6.243,0H1.181A1.182,1.182,0,0,0,0,1.181V4.219A1.182,1.182,0,0,0,1.181,5.4H6.243A1.183,1.183,0,0,0,7.425,4.219V1.181A1.182,1.182,0,0,0,6.243,0Zm0,0"/>
+								  <path class="path" data-name="Path 151" d="M6.243,213.332H1.181A1.182,1.182,0,0,0,0,214.513V221.6a1.182,1.182,0,0,0,1.181,1.181H6.243A1.182,1.182,0,0,0,7.425,221.6v-7.087A1.183,1.183,0,0,0,6.243,213.332Zm0,0" transform="translate(0 -206.782)"/>
+								  <path class="path" data-name="Path 152" d="M283.576,341.332h-5.062a1.183,1.183,0,0,0-1.181,1.181v3.037a1.182,1.182,0,0,0,1.181,1.181h5.062a1.182,1.182,0,0,0,1.181-1.181v-3.037A1.182,1.182,0,0,0,283.576,341.332Zm0,0" transform="translate(-268.757 -330.732)"/>
+								  <path class="path" data-name="Path 153" d="M283.576,0h-5.062a1.182,1.182,0,0,0-1.181,1.181V8.268a1.183,1.183,0,0,0,1.181,1.181h5.062a1.182,1.182,0,0,0,1.181-1.181V1.181A1.182,1.182,0,0,0,283.576,0Zm0,0" transform="translate(-268.757)"/>
+								</svg>
+							</span>
+							<span>Dashboard</span>
+						</a>
+					</li>
+
+					<li>
+						<a class="nav-link">Customer Service</a>
+					</li>
+
+					<li class="nav-item">
+						<a href="#!" class="nav-link">
+							<span class="svg">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+								  <path class="path" d="M-481-8a.945.945,0,0,1-1-1v-9a.945.945,0,0,1,1-1h2a.945.945,0,0,1,1,1v9a.945.945,0,0,1-1,1Zm-6,0a.944.944,0,0,1-1-1V-23a.945.945,0,0,1,1-1h2a.945.945,0,0,1,1,1V-9a.944.944,0,0,1-1,1Zm-6,0a.945.945,0,0,1-1-1v-4a.945.945,0,0,1,1-1h2a.946.946,0,0,1,1,1v4a.945.945,0,0,1-1,1Z" transform="translate(494 24)"/>
+								</svg>
+							</span>
+							<span>Flows</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#!" class="nav-link">
+							<span class="svg">
+								<svg xmlns="http://www.w3.org/2000/svg" width="18.601" height="18.601" viewBox="0 0 18.601 18.601">
+								  <path class="path" d="M15.877,2.724A9.3,9.3,0,0,0,2.724,15.877,9.3,9.3,0,0,0,15.877,2.724ZM9.884,13.347H9.845v1.206a.545.545,0,1,1-1.09,0V13.347H7.549a.545.545,0,1,1,0-1.09H9.884a1.206,1.206,0,0,0,0-2.412H8.717a2.3,2.3,0,0,1,0-4.592h.039V4.047a.545.545,0,1,1,1.09,0V5.253h1.206a.545.545,0,0,1,0,1.09H8.717a1.206,1.206,0,0,0,0,2.412H9.884a2.3,2.3,0,0,1,0,4.592Z" transform="translate(0)"/>
+								</svg>
+							</span>
+							<span>Upsells</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#!" class="nav-link">
+							<span class="svg">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+								  <path class="path" d="M0,15.2V.8A.8.8,0,0,1,.8,0H7.6a.793.793,0,0,1,.565.234L8.731.8H15.2a.8.8,0,0,1,.715,1.158L13.694,6.4l2.22,4.442A.8.8,0,0,1,15.2,12H8.4a.8.8,0,0,1-.566-.235L7.268,11.2H1.6v4a.8.8,0,1,1-1.6,0Z"/>
+								</svg>
+							</span>
+							<span>Variants</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#!" class="nav-link active">
+							<span class="svg">
+								<svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16">
+								  <path class="path" d="M14,0H2A.945.945,0,0,0,1,1V16l3-2,2,2,2-2,2,2,2-2,3,2V1A.945.945,0,0,0,14,0ZM12,10H4V8h8Zm0-4H4V4h8Z" transform="translate(-1)"/>
+								</svg>
+							</span>
+							<span>Order History</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#!" class="nav-link">
+							<span class="svg">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16.501" height="16.501" viewBox="0 0 16.501 16.501">
+								  <path class="path" d="M14.947,1.555a5.315,5.315,0,0,0-8.815,5.4L.143,12.94A.483.483,0,0,0,0,13.282v2.735a.483.483,0,0,0,.483.483H3.219a.483.483,0,0,0,.342-.142l.684-.684a.483.483,0,0,0,.138-.4L4.3,14.543l1.018-.1a.483.483,0,0,0,.436-.436l.1-1.018.735.085a.476.476,0,0,0,.377-.119.485.485,0,0,0,.162-.361v-.9H8a.483.483,0,0,0,.342-.142l1.24-1.223a5.235,5.235,0,0,0,5.36-1.258A5.324,5.324,0,0,0,14.947,1.555ZM13.579,4.973a1.45,1.45,0,1,1,0-2.051A1.451,1.451,0,0,1,13.579,4.973Z" transform="translate(-0.001 0)"/>
+								</svg>
+							</span>
+							<span>Access</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#!" class="nav-link">
+							<span class="svg">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+								  <path class="path" d="M13.334,16H3.555A3.559,3.559,0,0,1,0,12.445V1.778A1.78,1.78,0,0,1,1.778,0h8.889a1.78,1.78,0,0,1,1.778,1.778h1.778A1.78,1.78,0,0,1,16,3.555v9.778A2.669,2.669,0,0,1,13.334,16ZM12.445,3.555v9.778a.889.889,0,1,0,1.778,0V3.555Zm-8,7.111a.889.889,0,1,0,0,1.778H8a.889.889,0,0,0,0-1.778Zm0-3.555a.889.889,0,1,0,0,1.778H8A.889.889,0,0,0,8,7.111Zm0-3.556a.889.889,0,1,0,0,1.778H8A.889.889,0,0,0,8,3.555Z"/>
+								</svg>
+							</span>
+							<span>Check Reports</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#!" class="nav-link">
+							<span class="svg">
+								<svg xmlns="http://www.w3.org/2000/svg" width="13" height="17.184" viewBox="0 0 13 17.184">
+								  <path class="path" data-name="Stroke 1" d="M6.819,3.409A3.409,3.409,0,1,1,3.41,0,3.409,3.409,0,0,1,6.819,3.409Z" transform="translate(3.059)"/>
+								  <path class="path" data-name="Stroke 3" d="M13,8.772V5.13A5.276,5.276,0,0,0,7.588,0H5.412A5.276,5.276,0,0,0,0,5.13V8.772Z" transform="translate(0 8.412)"/>
+								</svg>
+							</span>
+							<span>Customer Info</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#!" class="nav-link">
+							<span class="svg">
+								<svg xmlns="http://www.w3.org/2000/svg" width="13.572" height="16" viewBox="0 0 13.572 16">
+								  <path class="path" d="M12.441,16H1.131A1.138,1.138,0,0,1,0,14.858v-8A1.138,1.138,0,0,1,1.131,5.715H2.262V4.571a4.524,4.524,0,1,1,9.048,0V5.715h1.131a1.138,1.138,0,0,1,1.131,1.143v8A1.138,1.138,0,0,1,12.441,16ZM6.786,9.143a1.138,1.138,0,0,0-1.13,1.142v1.143a1.131,1.131,0,1,0,2.261,0V10.286A1.138,1.138,0,0,0,6.786,9.143Zm0-8A3.414,3.414,0,0,0,3.393,4.571V5.715h6.786V4.571A3.415,3.415,0,0,0,6.786,1.144Z" transform="translate(0 0)"/>
+								</svg>
+							</span>
+							<span>Customer Password</span>
+						</a>
+					</li>
+
+					<li>
+						<a class="nav-link">Technical Team</a>
+					</li>
+
+					<li class="nav-item">
+						<a href="#!" class="nav-link">
+							<span class="svg">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16.059" height="17" viewBox="0 0 16.059 17">
+								  <path class="path" d="M78.783,88.618a3.413,3.413,0,0,0-.553-.54,6.226,6.226,0,0,1-.143,1.635,6.592,6.592,0,0,1-6.61,5.34H69.121l-.762,3.572a1.537,1.537,0,0,1-1.5,1.21H65.8l-.191.878a.765.765,0,0,0,.747.927h2.6a.764.764,0,0,0,.748-.6l.892-4.177h2.974a5.828,5.828,0,0,0,5.863-4.736A4,4,0,0,0,78.783,88.618Z" transform="translate(-63.503 -84.64)"/>
+								  <path class="path" d="M16.165,13.826l.892-4.177H20.03a5.969,5.969,0,0,0,3.8-1.294,5.947,5.947,0,0,0,2.061-3.441,4,4,0,0,0-.646-3.5A4.089,4.089,0,0,0,22.111,0h-6.48a.765.765,0,0,0-.747.6l-2.81,12.9a.764.764,0,0,0,.747.927h2.6A.765.765,0,0,0,16.165,13.826ZM18.544,2.939h2.039a1.458,1.458,0,0,1,1.177.552A1.62,1.62,0,0,1,21.988,4.9l-.005.02a2.611,2.611,0,0,1-2.377,1.963H17.652Z" transform="translate(-12.057)"/>
+								</svg>
+							</span>
+							<span>Paypal Customers</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#!" class="nav-link">
+							<span class="svg">
+								<svg id="events_breakdown" xmlns="http://www.w3.org/2000/svg" width="15.379" height="16.993" viewBox="0 0 15.379 16.993">
+								  <path class="path" d="M135.653,4.292a.532.532,0,0,1-.532-.532V.532a.532.532,0,0,1,1.064,0V3.759A.532.532,0,0,1,135.653,4.292Z" transform="translate(-131.434)"/>
+								  <path class="path" d="M344.4,4.292a.532.532,0,0,1-.532-.532V.532a.532.532,0,0,1,1.064,0V3.759A.532.532,0,0,1,344.4,4.292Z" transform="translate(-333.244)"/>
+								  <path class="path" d="M24.263,221.975v7.341a2.272,2.272,0,0,0,2.27,2.27h10.84a2.272,2.272,0,0,0,2.27-2.27v-7.341Z" transform="translate(-24.263 -214.593)"/>
+								  <path class="path" d="M39.642,53.229V50.795a2.272,2.272,0,0,0-2.27-2.27H37.02v2.146a1.6,1.6,0,1,1-3.192,0V48.525H30.078v2.146a1.6,1.6,0,1,1-3.192,0V48.525h-.353a2.272,2.272,0,0,0-2.27,2.27v2.434H39.642Z" transform="translate(-24.263 -46.911)"/>
+								</svg>
+							</span>
+							<span>Events Breakdown</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#!" class="nav-link">
+							<span class="svg">
+								<svg xmlns="http://www.w3.org/2000/svg" width="17.139" height="16.237" viewBox="0 0 17.139 16.237">
+								  <g transform="translate(-17947 16258.5)">
+								    <path class="path" d="M11.63,2.012s3.8-2.06,4.5-2.011,1,.082,1,.082-5.85,5.183-7.09,5.382-6.177-.689-6.177-.689L1.937,6.239,0,3.244S3.253.759,4.908.582,9.9,1.615,9.9,1.615s.132.709-.362.945a20.935,20.935,0,0,1-3.179.469A6.254,6.254,0,0,0,11.63,2.012" transform="translate(17947 -16248.502)"/>
+								    <path class="path" d="M4.285,8.569A4.285,4.285,0,1,1,8.569,4.285,4.289,4.289,0,0,1,4.285,8.569ZM3.167,5.285c-.052,0-.078.048-.1.131-.035.113-.067.228-.1.339l-.01.035c-.046.169-.028.209.131.287a2.318,2.318,0,0,0,.647.185c.175.028.18.034.183.217v.082c0,.055,0,.11,0,.164a.145.145,0,0,0,.157.166l.172,0,.192,0a.138.138,0,0,0,.15-.156c0-.039,0-.078,0-.118,0-.072,0-.147,0-.22a.178.178,0,0,1,.154-.2,1.219,1.219,0,0,0,.634-.407,1.118,1.118,0,0,0,.239-.922,1.2,1.2,0,0,0-.607-.818,5.4,5.4,0,0,0-.571-.262l-.066-.027a1.407,1.407,0,0,1-.35-.2.319.319,0,0,1-.132-.29A.327.327,0,0,1,4.1,3.019a.622.622,0,0,1,.215-.044l.093,0a1.629,1.629,0,0,1,.712.162.262.262,0,0,0,.107.034c.047,0,.076-.034.1-.124s.057-.188.084-.28c.014-.049.028-.1.041-.143a.148.148,0,0,0-.1-.2,2.058,2.058,0,0,0-.509-.152c-.23-.035-.23-.035-.231-.268,0-.327,0-.327-.328-.327H4.148c-.151,0-.179.032-.183.185,0,.042,0,.083,0,.125s0,.056,0,.084c0,.2,0,.2-.187.268l-.011,0a1.1,1.1,0,0,0-.8,1.013,1.035,1.035,0,0,0,.587.992,3.47,3.47,0,0,0,.494.23c.079.032.161.065.24.1a1.092,1.092,0,0,1,.267.157.384.384,0,0,1,.15.35.379.379,0,0,1-.237.292.838.838,0,0,1-.341.07A1.037,1.037,0,0,1,4,5.538a2.094,2.094,0,0,1-.717-.215A.265.265,0,0,0,3.167,5.285Z" transform="translate(17951.285 -16258.5)"/>
+								  </g>
+								</svg>
+							</span>
+							<span>Profit</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#!" class="nav-link">
+							<span class="svg">
+								<svg xmlns="http://www.w3.org/2000/svg" width="14.999" height="16.675" viewBox="0 0 14.999 16.675">
+								  <path class="path" d="M11.844,16.674h-.105l-.069,0-.064-.005h0l-.039,0-.053-.006-.068-.009-.02,0-.059-.01-.011,0-.062-.012-.063-.013L11.2,16.6h-.006l-.048-.012-.017,0h0l-.061-.016L11,16.546l-.025-.007-.006,0-.046-.015-.005,0-.055-.018-.036-.012-.108-.041-.031-.012h0c-.036-.015-.073-.031-.109-.048l-.032-.015c-.065-.031-.128-.063-.19-.1l-.05-.029-.056-.033-.055-.034-.042-.028-.045-.03-.088-.063-.043-.033c-.029-.022-.057-.045-.085-.067l-.018-.015-.017-.015c-.017-.013-.033-.028-.049-.042l-.058-.053L9.7,15.777l0,0,0,0-.034-.033,0,0-.071-.075-.033-.037L9.5,15.566l-.027-.032-.036-.045L9.4,15.442l-.024-.032c-.022-.031-.045-.062-.066-.094l-.022-.033-.032-.05q-.012-.018-.023-.037c-.011-.018-.023-.037-.033-.056L9.181,15.1l0,0,0-.007,0-.006-.019-.036L9.127,15l-.02-.04,0,0,0-.009L9.08,14.9c-.011-.023-.021-.046-.031-.07l-.022-.054,0-.005-.012-.031,0-.008A.276.276,0,0,1,9,14.7l-.012-.03c0-.012-.009-.025-.013-.038s-.008-.021-.011-.032-.01-.029-.014-.044-.013-.04-.018-.06-.009-.032-.013-.048-.011-.041-.016-.061-.009-.036-.013-.053-.009-.041-.014-.062-.006-.029-.009-.043l0-.011c0-.019-.007-.039-.01-.058v0c0-.019-.006-.038-.009-.057v0s0-.008,0-.012l0-.02c0-.017,0-.033-.006-.05v0c0-.016,0-.033,0-.049s0-.026,0-.039h0c0-.023,0-.045,0-.068s0-.04,0-.06,0-.023,0-.034,0-.044,0-.066,0-.044,0-.066,0-.046,0-.069,0-.025,0-.037h0c0-.019,0-.038,0-.057s0-.043.006-.064,0-.025,0-.037a.03.03,0,0,1,0-.006c0-.012,0-.024,0-.035s.005-.041.009-.062.006-.04.01-.06a.092.092,0,0,1,0-.018.352.352,0,0,1,.007-.038c0-.013,0-.027.008-.04s0-.021.007-.031l.008-.035.007-.029v-.005c0-.018.009-.036.014-.053a.007.007,0,0,1,0,0,0,0,0,0,0,0,0c.005-.021.012-.042.018-.064v0a0,0,0,0,1,0,0c.005-.017.01-.035.016-.052a.028.028,0,0,1,0-.008.055.055,0,0,1,0-.014l0-.01c.005-.017.012-.035.018-.053L9,12.671,9.03,12.6h0l0-.008.018-.042.012-.029.025-.055v0l.023-.048.012-.025c.019-.038.04-.075.06-.113q.057-.1.121-.2l.038-.055.042-.059.037-.049.016-.02.016-.02.033-.041.029-.035c.02-.023.04-.046.061-.069l0,0,.027-.03.009-.01.036-.037.035-.035.014-.014.035-.034.013-.012.03-.028,0,0,.043-.038.047-.041.066-.054L10,11.352l.059-.044.045-.031c.046-.032.094-.063.142-.093s.081-.049.121-.071h0l.065-.035.066-.033.058-.028.009,0h0l.007,0,.057-.025.059-.025.032-.012,0,0,.033-.013h0l.026-.009.047-.017.02-.007.053-.018.012,0,.012,0,.046-.015h0l.009,0,.068-.02.064-.017.009,0h0l.047-.011.041-.009.007,0,.053-.011.076-.014.053-.009h0l.031,0h0l.066-.008.053-.006h0l.032,0,.077-.007.058,0h.061l.05,0h.062a2.981,2.981,0,1,1,0,5.958ZM10.4,14.162h3.075v-.933H10.4ZM0,14.9V10.533A3.239,3.239,0,0,1,3.3,7.356H8.38A3.275,3.275,0,0,1,11.587,9.8a4.092,4.092,0,0,0-2.55,1.134A3.813,3.813,0,0,0,8.045,14.9ZM4.412,6.3a3.376,3.376,0,0,1-.406-.213A3.268,3.268,0,0,1,2.417,3.3,3.362,3.362,0,0,1,5.839,0,3.361,3.361,0,0,1,9.26,3.3,3.267,3.267,0,0,1,7.693,6.069a3.467,3.467,0,0,1-.368.2A3.548,3.548,0,0,1,4.412,6.3Z" transform="translate(0 0)"/>
+								</svg>
+							</span>
+							<span>Delete Test Users</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#!" class="nav-link">
+							<span class="svg">
+								<svg xmlns="http://www.w3.org/2000/svg" width="15.301" height="17.252" viewBox="0 0 15.301 17.252">
+								  <path class="path" d="M10.091,17.252h0l-1.083-.194.007,0L2.624,15.9l0,0L0,15.357l.231-1.577h0L1.4,4.919l2.138-.674A8.5,8.5,0,0,1,4.028,2.7,6.6,6.6,0,0,1,4.766,1.4,4.109,4.109,0,0,1,5.7.457,2.435,2.435,0,0,1,6.789.017,2.085,2.085,0,0,1,7.05,0l.086,0h0A1.255,1.255,0,0,1,7.7.166,1.409,1.409,0,0,1,8.1.528,1.474,1.474,0,0,1,8.328.51,1.285,1.285,0,0,1,8.91.648a1.679,1.679,0,0,1,.476.369,2.912,2.912,0,0,1,.381.535,5.06,5.06,0,0,1,.3.634l.625-.2,1.387,1.179,1.491.034,1.492,9.683v0l.242,1.157-5.209,3.208ZM2.773,12.164a.146.146,0,0,0-.054.1c0,.009,0,.018-.007.026-.033.108-.066.218-.1.325v0c-.08.268-.163.546-.262.813a.3.3,0,0,0,.117.386,3.8,3.8,0,0,0,2.032.854,3.172,3.172,0,0,0,.384.024,2.408,2.408,0,0,0,2.4-1.773,2.566,2.566,0,0,0-.2-2.148,2.664,2.664,0,0,0-.414-.517,4.835,4.835,0,0,0-.509-.431c-.079-.06-.161-.119-.241-.176h0a5.985,5.985,0,0,1-.637-.506.794.794,0,0,1-.209-.306.6.6,0,0,1-.009-.366.785.785,0,0,1,.111-.243.7.7,0,0,1,.171-.172,1.126,1.126,0,0,1,.479-.177,2.235,2.235,0,0,1,.358-.029,2.57,2.57,0,0,1,.582.069,3.851,3.851,0,0,1,.563.18.266.266,0,0,0,.093.024c.049,0,.069-.036.093-.108.184-.554.377-1.111.572-1.657a.188.188,0,0,0,.013-.148.194.194,0,0,0-.123-.08,3.807,3.807,0,0,0-1.2-.181,6.03,6.03,0,0,0-.712.045A3.136,3.136,0,0,0,3.212,8.675a2.181,2.181,0,0,0,.779,2.132c.242.2.442.365.631.526a1.486,1.486,0,0,1,.405.477.988.988,0,0,1,.109.42.65.65,0,0,1-.032.207.712.712,0,0,1-.108.2.649.649,0,0,1-.556.263,1.306,1.306,0,0,1-.2-.017,2.225,2.225,0,0,1-.48-.136,4.753,4.753,0,0,1-.957-.566l-.027-.019ZM7.088.56a2.093,2.093,0,0,0-1.232.581,3.827,3.827,0,0,0-.921,1.118,15.576,15.576,0,0,0-.72,1.773l1.4-.442a6.694,6.694,0,0,1,.324-1.06A4.4,4.4,0,0,1,6.378,1.7a3.106,3.106,0,0,1,.535-.6A2.557,2.557,0,0,1,7.532.7.764.764,0,0,0,7.466.659.728.728,0,0,0,7.088.56Zm.8.64A2.322,2.322,0,0,0,6.658,2.44a4.2,4.2,0,0,0-.316.92l1.72-.542a4.823,4.823,0,0,0,.013-.557A3.3,3.3,0,0,0,7.886,1.2Zm.54-.077h0a3.783,3.783,0,0,1,.156.533c.034.153.061.315.08.48a4.569,4.569,0,0,1,.034.481l.831-.262c-.16-.528-.48-1.17-1.1-1.233Z" transform="translate(0 0)"/>
+								</svg>
+							</span>
+							<span>Shopify Customers</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#!" class="nav-link">
+							<span class="svg">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16.166" height="16.006" viewBox="0 0 16.166 16.006">
+								  <path class="path" d="M1.593,3.185A1.593,1.593,0,1,0,0,1.593,1.593,1.593,0,0,0,1.593,3.185" transform="translate(0.916 5.734)"/>
+								  <path class="path" d="M1.593,3.185A1.593,1.593,0,1,0,0,1.593,1.593,1.593,0,0,0,1.593,3.185" transform="translate(12.383 5.734)"/>
+								  <path class="path" d="M2.508,0H5.017c0,1.908-.179,3.225-1.433,3.548v2.9H1.433v-2.9C.179,3.225,0,1.908,0,0Z" transform="translate(5.733 4.101)"/>
+								  <path class="path" d="M1.593,3.185A1.593,1.593,0,1,0,0,1.593,1.593,1.593,0,0,0,1.593,3.185" transform="translate(6.649)"/>
+								  <path class="path" d="M2.508,0H5.017c0,1.908-.179,3.225-1.433,3.548v2.9H1.433v-2.9C.179,3.225,0,1.908,0,0Z" transform="translate(11.149 9.556)"/>
+								  <path class="path" d="M2.508,0H5.017c0,1.908-.179,3.225-1.433,3.548v2.9H1.433v-2.9C.179,3.225,0,1.908,0,0Z" transform="translate(0 9.556)"/>
+								</svg>
+							</span>
+							<span>Enc Customers</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#!" class="nav-link">
+							<span class="svg">
+								<svg xmlns="http://www.w3.org/2000/svg" width="15" height="17" viewBox="0 0 15 17">
+								  <path class="path" d="M1.667,17A1.684,1.684,0,0,1,0,15.3V12.75a.841.841,0,0,1,.833-.85.841.841,0,0,1,.833.85V15.3H13.333V12.75a.833.833,0,1,1,1.667,0V15.3A1.684,1.684,0,0,1,13.333,17Zm5-4.25V2.9L3.923,5.7a.821.821,0,0,1-1.178,0,.862.862,0,0,1,0-1.2L6.911.249a.824.824,0,0,1,1.179,0L12.256,4.5a.862.862,0,0,1,0,1.2.821.821,0,0,1-1.178,0L8.333,2.9V12.75a.833.833,0,1,1-1.667,0Z" transform="translate(0 0)"/>
+								</svg>
+							</span>
+							<span>Export DNA Customers</span>
+						</a>
+					</li>
+
+				</ul>
+			</div>
+			<div class="col row no-gutters flex-xl-row-reverse">
+
+				<div class="col-xl-auto sidebar-right">
+					<div class="row row-2">
+						<div class="col-sm-6 col-xl-12 mb-3 mb-sm-0 mb-xl-3 pb-xl-1">
+							<select class="form-control">
+								<option value="1">Orders</option>
+								<option value="2" selected>Subscriptions</option>
+							</select>
+						</div>
+						<div class="col-sm-6 col-xl-12">
+							<form action="#!" class="searcher">
+								<input type="email" class="form-control" placeholder="Search Customer Email...">
+								<button></button>
+							</form>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-xl">
+					<ol class="breadcrumb">
+				    <li class="breadcrumb-item"><a href="#!">Order History</a></li>
+				    <li class="breadcrumb-item active">Subscriptions</li>
+				  </ol>
+					<div class="content">
+						
+						<div class="white-block">
+							<div class="table-responsive">
+							  <table class="table fz-16">
+							    <thead>
+								    <tr>
+								      <th>USER</th>
+								      <th>START DATE</th>
+								      <th>END DATE</th>
+								      <th>PRODUCT</th>
+								    </tr>
+								  </thead>
+								  <tbody>
+								  	<tr>
+								  		<td>
+								  			<div>test+karl1708@lifedna.com</div>
+								  			<div class="fz-14 text-gray">sub_H1YUwsraDKeNcP</div>
+								  		</td>
+								  		<td>
+								  			<div>2020-04-02</div>
+								  			<div class="fz-14 text-success-2">30 days left</div>
+								  		</td>
+								  		<td>2020-05-02</td>
+								  		<td>LifeDNA Supplement</td>
+								  	</tr>
+								  	<tr>
+								  		<td>
+								  			<div>test+karl1708@lifedna.com</div>
+								  			<div class="fz-14 text-gray">sub_H1YUwsraDKeNcP</div>
+								  		</td>
+								  		<td>
+								  			<div>2020-04-02</div>
+								  			<div class="fz-14 text-danger">30 days left</div>
+								  		</td>
+								  		<td>2020-04-05</td>
+								  		<td>LifeDNA Supplement</td>
+								  	</tr>
+								  	<tr>
+								  		<td>
+								  			<div>test+karl1708@lifedna.com</div>
+								  			<div class="fz-14 text-gray">sub_H1YUwsraDKeNcP</div>
+								  		</td>
+								  		<td>
+								  			<div>2020-04-02</div>
+								  			<div class="fz-14 text-warning">30 days left</div>
+								  		</td>
+								  		<td>2020-04-17</td>
+								  		<td>LifeDNA Supplement</td>
+								  	</tr>
+								  	<tr>
+								  		<td>
+								  			<div>test+karl1708@lifedna.com</div>
+								  			<div class="fz-14 text-gray">sub_H1YUwsraDKeNcP</div>
+								  		</td>
+								  		<td>
+								  			<div>2020-04-02</div>
+								  			<div class="fz-14 text-warning">30 days left</div>
+								  		</td>
+								  		<td>2020-04-14</td>
+								  		<td>LifeDNA Supplement</td>
+								  	</tr>
+								  	<tr>
+								  		<td>
+								  			<div>test+karl1708@lifedna.com</div>
+								  			<div class="fz-14 text-gray">sub_H1YUwsraDKeNcP</div>
+								  		</td>
+								  		<td>
+								  			<div>2020-04-02</div>
+								  			<div class="fz-14 text-danger">30 days left</div>
+								  		</td>
+								  		<td>2020-04-04</td>
+								  		<td>LifeDNA Supplement</td>
+								  	</tr>
+								  	<tr>
+								  		<td>
+								  			<div>test+karl1708@lifedna.com</div>
+								  			<div class="fz-14 text-gray">sub_H1YUwsraDKeNcP</div>
+								  		</td>
+								  		<td>
+								  			<div>2020-04-02</div>
+								  			<div class="fz-14 text-success-2">30 days left</div>
+								  		</td>
+								  		<td>2020-04-26</td>
+								  		<td>LifeDNA Supplement</td>
+								  	</tr>
+								  	<tr>
+								  		<td>
+								  			<div>test+karl1708@lifedna.com</div>
+								  			<div class="fz-14 text-gray">sub_H1YUwsraDKeNcP</div>
+								  		</td>
+								  		<td>
+								  			<div>2020-04-02</div>
+								  			<div class="fz-14 text-warning">30 days left</div>
+								  		</td>
+								  		<td>2020-04-12</td>
+								  		<td>LifeDNA Supplement</td>
+								  	</tr>
+								  	<tr>
+								  		<td>
+								  			<div>test+karl1708@lifedna.com</div>
+								  			<div class="fz-14 text-gray">sub_H1YUwsraDKeNcP</div>
+								  		</td>
+								  		<td>
+								  			<div>2020-04-02</div>
+								  			<div class="fz-14 text-success-2">30 days left</div>
+								  		</td>
+								  		<td>2020-04-20</td>
+								  		<td>LifeDNA Supplement</td>
+								  	</tr>
+								  </tbody>
+							  </table>
+							</div>
+						</div>
+
+					  <ul class="pagination pagination-sm">
+					    <li class="page-item"><a class="page-link" href="#!"><img src="img/arrow-pag-left.svg" alt="" width="4.5"></a></li>
+					    <li class="page-item active"><a class="page-link" href="#!">1</a></li>
+					    <li class="page-item"><a class="page-link" href="#!">2</a></li>
+					    <li class="page-item"><a class="page-link" href="#!">3</a></li>
+					    <li class="page-item"><a class="page-link" href="#!">4</a></li>
+					    <li class="page-item"><a class="page-link"><img src="img/dots.svg" alt=""></a></li>
+					    <li class="page-item"><a class="page-link" href="#!">10</a></li>
+					    <li class="page-item"><a class="page-link" href="#!">11</a></li>
+					    <li class="page-item"><a class="page-link" href="#!">12</a></li>
+					    <li class="page-item"><a class="page-link" href="#!"><img src="img/arrow-pag-right.svg" alt="" width="4.5"></a></li>
+					  </ul>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+		
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		<script src="libs/owl-carousel-2/owl.carousel.min.js"></script>
+		<script src="js/common.js"></script>
+	</body>
+</html>

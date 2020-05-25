@@ -43,7 +43,7 @@ $(document).ready(function() {
 
 	owl3.on("click", "input[type='radio'], .btn.btn-success", function() {
 		owl3.trigger('next.owl.carousel');
-	}).on("click", ".back", function() {
+	// }).on("click", ".back", function() {
 		owl3.trigger('prev.owl.carousel');
 	}).on("change", ".form-control", function() {
 		var slideBtn = $(this).closest(".slide").find(".btn.btn-success");
@@ -90,6 +90,19 @@ $(document).ready(function() {
 	$('#myTab .nav-link').on('shown.bs.tab', function (e) {
 		var href = $(e.target).attr("data-href");
 		$('[data-href="' + href + '"]').trigger("click");
+	});
+
+	$("#sandwich").on("click", function(){
+		$("body").toggleClass("menubar-in");
+	});
+
+	var typed = new Typed('.element', {
+		strings: ["metabolism", "energy", "cognition", "mental health", "natural detoxification process", "immune response", "brain health"],
+		typeSpeed: 50,
+		backDelay: 3000,
+		loop: true,
+		loopCount: true,
+		cursorChar: ''
 	});
 
 });

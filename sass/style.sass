@@ -16,7 +16,7 @@ $color-border: #F1F1F1
 $color-border-2: #E8EAEB
 $color-black: #000
 $color-fill: #9F9F9F
-$background: #F7FAFC
+$background: #F7FAFC  
 $background-2: #DDEFE2
 $shadow: 0 3px 13px rgba(0, 0, 0, .06) 
 
@@ -128,6 +128,8 @@ h6, .h6
 	font-size: 18px !important
 .fz-16
 	font-size: 1rem !important
+.fz-15
+	font-size: 15px !important
 .fz-14
 	font-size: 14px !important
 .fz-13
@@ -267,23 +269,23 @@ textarea.form-control
 	height: 207px 
 	resize: none
 
-.custom-control
+.custom-control:not(.custom-switch)
 	padding-left: 2rem
-.custom-control-label
-	position: static
-	&:before
-		top: 0
-		left: 0
-		width: 21px
-		height: 21px
-		background-color: $background
-		border: 1px solid #EDEDED
-		box-shadow: none !important
-	&:after
-		top: 0
-		left: 0
-		width: 21px
-		height: 21px
+	.custom-control-label
+		position: static
+		&:before
+			top: 0
+			left: 0
+			width: 21px
+			height: 21px
+			background-color: $background
+			border: 1px solid #EDEDED
+			box-shadow: none !important
+		&:after
+			top: 0
+			left: 0
+			width: 21px
+			height: 21px
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label:before
 	background-color: $color-success
 	border-color: $color-success
@@ -1954,11 +1956,11 @@ textarea.form-control
 			margin-right: -8px
 	ul
 		padding-top: 12px
-		>li
+		> li
 			padding-left: 22px
 			padding-bottom: 4px
 			display: flex
-			>span
+			> span
 				font-weight: bold
 				margin-left: auto
 	.custom-control-label 
@@ -1995,7 +1997,7 @@ textarea.form-control
 	.cart3-top
 		background: $color-success
 	ul
-		>li
+		> li
 			position: relative
 			&:before 
 				content: ''
@@ -2006,3 +2008,697 @@ textarea.form-control
 				height: 16px
 				background-image: url(../img/check-cart.svg)
 				background-size: cover
+
+// 05/03/2020
+
+.section-oto
+	background-image: url(../img/bg-oto.png)
+	background-size: cover
+	@media (max-width: 991.98px)
+		padding-top: 48px
+
+.optimize
+	color: #8C6A24
+	background: #FFFCF3
+	border: 1px solid #FAE39F
+	border-radius: 5px
+	padding: 14px 24px
+
+.lh-1
+	line-height: 1
+
+// 08/04/2020
+
+body
+	transition: transform .3s
+	@media (max-width: 991.98px)
+		&.menubar-in
+			overflow: hidden
+			transform: translateX(220px)
+
+.navbar-2
+	padding: 14.61px 0
+	box-shadow: 0 2px 6px rgba(0, 0, 0, .04)
+	.container-fluid
+		padding-left: 15px
+		padding-right: 15px
+	@media (min-width: 576px)
+		padding-left: 5px
+		padding-right: 5px
+	.dropdown-menu-right
+		right: 0
+		left: auto
+
+.dashboard-content
+	color: #252626
+	flex-grow: 1
+	flex-wrap: nowrap
+	.form-control
+		padding: 11px
+		background-color: #FAFBFC
+		border-color: #CACBCC !important
+		font-size: 1rem
+		box-shadow: none
+		border-radius: 2px
+		text-overflow: ellipsis
+		min-width: 100px
+	select.form-control
+		color: inherit !important
+		background-image: url("../img/arrow-2.svg")
+		background-position: calc(100% - 14px) center
+		padding-right: 40px
+
+.sidebar
+	width: 220px
+	position: sticky
+	top: 70px
+	bottom: 0
+	overflow: auto
+	max-height: calc(100vh - 70px)
+	box-shadow: 0 3px 6px rgba(0, 0, 0, .1)
+	@media (max-width: 991.98px)
+		margin-top: -70px
+		padding-top: 70px
+		margin-left: -220px
+		top: 0
+		max-height: 100vh
+		z-index: 1030
+
+.sidebar-right
+	@media (min-width: 1200px)
+		width: 220px
+		position: sticky
+		top: 70px
+		bottom: 0
+		overflow: auto
+		max-height: calc(100vh - 70px)
+		box-shadow: 0 2px 6px rgba(49, 77, 106, .05)
+		padding: 24px 20px !important
+		background-color: #fff
+	@media (min-width: 1400px)
+		width: 320px
+	@media (max-width: 1199.98px)
+		padding: 20px !important
+		border-bottom: 2px solid #EEF0F3
+	@media (max-width: 575.98px)
+		padding: 15px !important
+
+.breadcrumb
+	padding: 10px 30px
+	border-radius: 0
+	background-color: transparent 
+	border-bottom: 2px solid #EEF0F3
+	margin-bottom: 30px
+	@media (max-width: 1199.98px)
+		padding-left: 20px
+		padding-right: 20px
+		margin-bottom: 20px
+	@media (max-width: 575.98px)
+		padding-left: 15px
+		padding-right: 15px
+		margin-bottom: 15px
+	.breadcrumb-item
+		&.active
+			color: $color-success
+		+ .breadcrumb-item:before
+			content: ''
+			margin-right: 6px
+			width: 10.22px
+			height: 6.44px
+			background: url(../img/arrow.svg) center center
+			background-size: cover
+			transform: rotate(-90deg)
+			vertical-align: middle
+	a 
+		color: #000
+		&:hover 
+			color: $color-success
+
+.content
+	padding: 0 30px 1px
+	@media (max-width: 1199.98px)
+		padding-left: 20px
+		padding-right: 20px
+	@media (max-width: 575.98px)
+		padding-left: 15px
+		padding-right: 15px
+.white-block
+	background-color: #fff 
+	border: 1px solid #EBECED
+	border-radius: 3px
+	overflow: hidden
+	margin-bottom: 30px
+	@media (max-width: 1199.98px)
+		margin-bottom: 20px
+	@media (max-width: 575.98px)
+		margin-bottom: 15px
+.form-block
+	padding: 30px 30px 6px
+	@media (min-width: 1200px)
+		.form-group
+			margin-bottom: 34px
+	@media (max-width: 1199.98px)
+		padding-left: 20px 
+		padding-right: 20px
+	@media (max-width: 575.98px)
+		padding-left: 15px 
+		padding-right: 15px
+		
+.nav-sub-2
+	padding-top: 1px
+	padding-bottom: 34px
+	.nav-link
+		display: flex
+		align-items: center
+		color: #484848
+		padding: 9.5px 15px
+		border-left: 5px solid transparent
+		&:not([href])
+			margin-top: 34px
+			font-weight: bold 
+			opacity: 1
+			color: #000 !important
+		.svg
+			font-size: 0
+			width: 20px
+			flex: 0 0 auto
+			margin-right: 8px
+			text-align: center
+		.path
+			fill: #D6D6D6
+		&.active
+			font-weight: normal
+			color: $color-success
+			background-color: #fff
+			border-left-color: $color-success
+			.path
+				fill: $color-success !important
+
+.alert-warning
+	font-size: 1rem
+	line-height: 1.5
+	color: #604926
+	border-radius: 2px
+	background-color: #FCFBEB
+	border: 1px solid #F1EDE3
+	padding: 19px 11px
+	margin-bottom: 34px
+
+.searcher, .cop
+	position: relative
+	button
+		position: absolute
+		top: 0
+		right: 0
+		bottom: 0
+		border: 0
+		padding: 0
+		box-shadow: none
+		background-color: transparent
+		background-position: center center
+		background-repeat: no-repeat 
+		transition: .3s
+		cursor: pointer
+		&:hover 
+			opacity: .8
+.searcher
+	.form-control
+		padding-right: 48px
+	button
+		width: 48px
+		background-image: url(../img/search.svg)
+.cop
+	.form-control
+		min-width: 150px
+		font-size: 10px
+		padding-top: 9.5px
+		padding-bottom: 9.5px
+		padding-right: 36px
+	button
+		width: 36px
+		background-image: url(../img/cop.svg)
+
+.btn-outline-secondary
+	color: #000
+	background-color: #fff
+	border-color: #CBCBCB
+.btn-outline-danger
+	color: #FF2323
+	background-color: #FFEBEB
+	border-color: #FF2323
+.btn-secondary
+	background-color: #5E5E5E
+	border-color: #5E5E5E
+.btn-sm
+	font-size: 12px
+	padding: 5.5px 16.5px
+	border-width: 1px
+.btn-lg-2
+	font-size: 1rem
+	padding: 13.5px 60.5px
+.btn-lg-3
+	font-size: 1rem
+	font-weight: normal
+	padding: 10px 25px
+	border-width: 1px
+	border-radius: 2px
+	&.btn-outline-success
+		background-color: #fff
+		color: $color-success
+
+.table 
+	margin-bottom: 0
+	td, th
+		border-top: 2px solid #EEF0F3
+		vertical-align: middle !important
+		&:first-child
+			padding-left: 1.5rem
+		&:last-child
+			padding-right: 1.5rem
+	thead 
+		th
+			color: #7E7E7E
+			background-color: #F1F4F6
+			letter-spacing: 2px	
+			border: 0
+			padding-top: 1rem
+			padding-bottom: 1rem
+	.btn 
+		font-weight: normal
+		min-width: 92px
+	&.butn
+		.btn 
+			min-width: 70px
+			padding: 8px 10px
+
+.pagination
+	margin-bottom: 30px
+.page-link
+	text-align: center
+	color: $color-success
+	border-color: #EBECED
+	box-shadow: none !important
+	&:hover 
+		color: $color-success-2
+	.pagination-sm &
+		min-width: 23px
+		padding: 2.5px
+		font-size: 12px
+.page-item.active .page-link
+	background-color: $color-success
+	border-color: $color-success
+
+.status 
+	font-size: 12px
+	display: inline-block
+	border-radius: 100px
+	font-weight: bold
+	min-width: 82px
+	padding: 2px 10px
+	text-align: center
+	&.paid
+		color: #000
+		background-color: #DFF0E3
+	&.pending
+		color: #4B4514 
+		background-color: #FAF7DD
+
+.modal-1
+	color: #000
+	font-size: 14px
+	.modal-dialog
+		@media (min-width: 576px)
+			max-width: 460px
+		.modal-content
+			border: 0
+		.modal-header
+			color: #fff
+			border-bottom: 0
+			padding-top: 11px
+			padding-bottom: 11px
+			background-color: $color-success
+.exit:hover 
+	opacity: .8
+
+.custom-switch 
+	.custom-control-label
+		&:before
+			box-shadow: none !important
+			background-color: #D8D8D8 !important
+			border-color: #D8D8D8 !important
+		&:after 
+			background-color: #fff
+	.custom-control-input:checked 
+		~ .custom-control-label:before
+			background-color: $color-success !important
+			border-color: $color-success !important
+
+.canvas-2
+	@media (min-width: 992px)
+		height: 550px
+
+.point
+	&:before 
+		content: ''
+		display: inline-block
+		width: 8px
+		height: 8px
+		margin-right: .5rem
+		border-radius: 100px
+	&.gr
+		&:before 
+			background-color: #41C752
+	&.ye
+		&:before 
+			background-color: #FFE700
+	&.re
+		&:before 
+			background-color: #FF2323
+
+// 30/04/2020
+
+.form-block.white-block 
+	.form-group
+		@media (min-width: 1200px)
+			margin-bottom: 22px
+	.btn
+		padding-top: 10px
+		padding-bottom: 10px
+
+.radio-group-3
+	background-color: #FAFBFC
+	margin-bottom: 26px
+	text-align: center
+	> div 
+		color: #777777	
+		border: 1px solid #CACBCC
+		padding: 11px
+		box-shadow: none
+	input:checked ~ div
+		color: #198126
+		background-color: #D9FFDE
+
+.top-green
+	border-top: 12px solid $color-success
+	border-radius: 3px
+	.white-block
+		border-top: 0
+		border-top-left-radius: 0
+		border-top-right-radius: 0
+		position: relative
+	img 
+		position: absolute
+		z-index: -1
+		&:nth-child(1)
+			top: -60px
+			left: -70px
+		&:nth-child(2)
+			top: 53%
+			left: -60px
+		&:nth-child(3)
+			bottom: -10px
+			right: -50px
+
+.fz-25
+	font-size: 25px !important
+	@media (max-width: 767.98px)
+		font-size: 22px !important
+
+.optimize-2
+	border: 0
+	border-radius: 0
+	padding: 23px 0
+
+.section-oto-2
+	background-image: url(../img/oto/bg.png)
+	background-position: top right
+	background-repeat: no-repeat
+	@media (max-width: 767.98px)
+		background-image: url(../img/oto/bg-mobile.png)
+		background-position: bottom right
+
+// 04/05/2020
+
+.fz-28
+	font-size: 28px !important
+	@media (max-width: 767.98px)
+		font-size: 24px !important
+
+.plan-card
+	text-align: center
+	background-color: #fff
+	border-radius: 4px 
+	overflow: hidden
+	box-shadow: 0 3px 6px rgba(0, 0, 0, .1)
+	&-header 
+		font-size: 26px
+		font-weight: bold
+		color: #fff
+		padding: 11px
+		&.monthly
+			background-color: #4B4E4C
+		&.yearly
+			background-color: #9D9D9D
+	&-body
+		padding: 20px 44px 32px
+
+.fz-55
+	font-size: 55px
+.fz-21
+	font-size: 21px
+
+.most-pop
+	font-size: 19px
+	font-weight: bold
+	color: #fff
+	padding: 10px
+	text-align: center
+	margin: 0 1.5rem
+	position: relative
+	&:before 
+		content: '' 
+		position: absolute
+		top: -9px
+		right: 0
+		bottom: 0
+		left: 0
+		background-image: linear-gradient(to top, #F2000D, #C2000B)
+		transform: perspective(100px) rotateX(15deg)
+		transform-origin: center bottom
+		z-index: -1
+
+// 18/05/2020
+
+.section-100
+	padding: 0
+	overflow: hidden
+	.container
+		padding-top: 93px
+		padding-bottom: 62px
+		min-height: calc(100vh - 78px)
+		display: flex
+		flex-direction: column
+
+.section-5
+	background-image: url(../img/MTHFR/bg-1.svg)
+	background-size: cover
+
+.section-6
+	background-image: url(../img/MTHFR/bg-2.svg)
+	background-size: cover
+	background-position: top center
+
+.section-7
+	background-image: url(../img/MTHFR/bg-3.svg)
+	background-size: cover
+
+.section-8
+	background-image: url(../img/MTHFR/bg-4.svg)
+	background-size: cover
+	background-position: top center
+
+.bunner-bg
+	position: absolute
+	left: -40px
+	bottom: -109px
+	max-width: initial
+	z-index: -1
+
+.pl-line
+	padding-left: 35px
+	position: relative
+	&:before 
+		content: ''
+		position: absolute
+		top: 12px
+		left: 0
+		width: 23px
+		border-top: 5px solid $color-success
+
+.pl-arrow
+	padding-left: 38px
+	position: relative
+	&:before 
+		content: ''
+		position: absolute
+		top: 7px
+		left: 0
+		width: 26px
+		height: 12px
+		background-image: url(../img/MTHFR/arrow.svg)
+		background-size: cover
+
+.icon-scroll
+	width: 26px
+	height: 40px
+	margin-top: 52px
+	margin-bottom: .5rem
+	position: relative
+	border-radius: 100px
+	display: inline-block
+	box-shadow: inset 0 0 0 1px $color-success
+	&:before
+		content: ''
+		position: absolute
+		left: 50%
+		width: 8px
+		height: 9px
+		background: $color-success
+		margin-left: -4px
+		top: 8px
+		border-radius: 100px
+		animation-duration: 1.5s
+		animation-iteration-count: infinite
+		animation-name: scroll
+
+@keyframes scroll
+	0%
+		opacity: 1
+	100%
+		opacity: 0
+		transform: translateY(15px)
+
+.p-mb-lg
+	p 
+		margin-bottom: 1.5rem
+
+.list-check-2
+	li
+		margin-bottom: 1rem
+		&:before 	
+			top: 6px !important
+			width: 15px
+			height: 15px
+			background-image: url(../img/MTHFR/check-1.svg)
+			.text-white & 
+				background-image: url(../img/MTHFR/check-2.svg)
+
+.row-3:not(.no-gutters)
+	@media (min-width: 1200px)
+		margin-left: -30px
+		margin-right: -30px
+		> [class*="col"]
+			padding-left: 30px
+			padding-right: 30px
+
+// 25/05/2020
+
+.fz-0 
+	font-size: 0
+
+.z-1
+	z-index: 1
+
+.top-review
+	padding: 6px 38px 10px
+	background-color: #fff
+	border-radius: 0 0 35px 35px
+	box-shadow: 0 3px 16px rgba(0, 0, 0, .16)
+	* 
+		vertical-align: baseline
+	img 
+		max-width: 50%
+	.fz-0
+		margin: 0 4px 0 2px
+	.star-1
+		width: 10px
+		height: 10px
+		margin: 0 2px
+		display: inline-block
+		background: url(../img/oto-platinum/star.svg) no-repeat left center
+		&.star-0-7
+			width: 7px
+
+.bunner-wrap
+	position: relative
+	.bunner-bg
+		left: 30%
+		bottom: -28%
+		max-width: 140%
+		@media (max-width: 575.98px)
+			bottom: -15%
+
+.hr
+	border-top: 2px solid #EAF0F1
+
+.list-check-3
+	li
+		padding-left: 34px
+		&:before 	
+			top: 2px !important
+			width: 19px
+			height: 19px
+
+.optimize-3
+	color: #5FA1DE
+	background: #E9F8FF
+	border-color: #D6EAF5
+	padding: 9px 14px
+
+.card-card
+	display: block
+	text-align: center
+	border-radius: 11px
+	padding: 26px 15px 40px
+
+.fz-45
+	font-size: 45px
+
+.btn-try
+	color: #000
+	padding: 6px 36px 6px 6px
+	border: 1px solid #C3711A
+	border-radius: 6px
+	font-weight: normal
+	background: linear-gradient(to bottom, #F2B56F, #EB8C27)
+	transition: .3s
+	*
+		vertical-align: middle
+	&:before 
+		content: ''
+		width: 28px
+		height: 28px
+		font-size: 0
+		margin-right: 19px
+		border-radius: 3px
+		display: inline-block
+		vertical-align: middle
+		background: #2A3139 url(../img/oto-platinum/play.svg) no-repeat 55% center
+	&:hover 
+		opacity: .8
+
+.bg-bg 
+	background: url(../img/oto-platinum/bg-2.svg) no-repeat center center
+
+.most-po
+	color: #fff
+	font-weight: bold
+	margin-right: 34px
+	padding: 1.5px 28px
+	display: inline-block
+	border-radius: 4px 4px 0 0
+	background-color: $color-success
+
+.link-inh
+	color: inherit
+
