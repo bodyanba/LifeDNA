@@ -2692,4 +2692,51 @@ body {
 .link-inh {
   color: inherit; }
 
+.text-orange {
+  color: #F1AD62; }
+
+.btn-big {
+  font-size: 19px; }
+
+.card-popup {
+  padding: 52px 88px 32px !important; }
+  @media (max-width: 767.98px) {
+    .card-popup {
+      padding: 145px 15px 32px !important;
+      margin-top: 55px; } }
+  .card-popup hr {
+    border-top-width: 2px; }
+
+.btn-big {
+  font-size: 19px;
+  padding: 11.5px 40px 11.5px 22px; }
+  .btn-big:before {
+    width: 36px;
+    height: 36px;
+    background-size: 10px; }
+
+.img-badge {
+  position: absolute;
+  top: -14px;
+  left: -36px; }
+  @media (max-width: 767.98px) {
+    .img-badge {
+      left: 50%;
+      transform: translateX(-50%);
+      top: -55px; } }
+
+.popup-close {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: 23px;
+  right: 25px;
+  background-image: url(../img/subscription/close.svg);
+  background-size: cover; }
+  @media (max-width: 767.98px) {
+    .popup-close {
+      right: 15px; } }
+  .popup-close:hover {
+    opacity: 0.8; }
+
 /*# sourceMappingURL=style.css.map */
