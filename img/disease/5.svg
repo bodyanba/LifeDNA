@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Group_777" data-name="Group 777" transform="translate(-95 -452)">
+    <g id="Group_46" data-name="Group 46" transform="translate(66 299)">
+      <g id="Group_235" data-name="Group 235" transform="translate(-16 -605)">
+        <g id="Group_211" data-name="Group 211" transform="translate(0 656)">
+          <g id="Group_206" data-name="Group 206">
+            <circle id="Ellipse_1" data-name="Ellipse 1" cx="24" cy="24" r="24" transform="translate(45 102)" fill="#ddefe2"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="blood-cell" transform="translate(107 420)">
+      <g id="Group_10" data-name="Group 10" transform="translate(6.552 46)">
+        <path id="Path_10" data-name="Path 10" d="M141.781,46C138.593,46,136,48.269,136,51.059s2.593,5.059,5.781,5.059,5.781-2.269,5.781-5.059S144.969,46,141.781,46Zm1.956,4.847a2.765,2.765,0,0,1-3.912,0,.723.723,0,0,1,1.022-1.022,1.32,1.32,0,0,0,1.869,0,.723.723,0,1,1,1.022,1.022Z" transform="translate(-136 -46)" fill="#25772f"/>
+      </g>
+      <g id="Group_11" data-name="Group 11" transform="translate(0 56.117)">
+        <path id="Path_11" data-name="Path 11" d="M5.781,256C2.593,256,0,258.269,0,261.059s2.593,5.059,5.781,5.059,5.781-2.269,5.781-5.059S8.969,256,5.781,256Zm1.956,4.847a2.765,2.765,0,0,1-3.912,0,.723.723,0,0,1,1.022-1.022,1.32,1.32,0,0,0,1.869,0,.723.723,0,1,1,1.022,1.022Z" transform="translate(0 -256)" fill="#25772f"/>
+      </g>
+      <g id="Group_12" data-name="Group 12" transform="translate(13.104 56.117)">
+        <path id="Path_12" data-name="Path 12" d="M277.781,256c-3.188,0-5.781,2.269-5.781,5.059s2.593,5.059,5.781,5.059,5.781-2.269,5.781-5.059S280.969,256,277.781,256Zm.934,3.825a.723.723,0,0,1,1.022,1.022,2.77,2.77,0,0,1-3.912,0,.723.723,0,0,1,1.022-1.022A1.322,1.322,0,0,0,278.715,259.825Z" transform="translate(-272 -256)" fill="#25772f"/>
+      </g>
+    </g>
+  </g>
+</svg>

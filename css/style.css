@@ -2753,4 +2753,199 @@ body {
   .top-review-2 img {
     max-width: 100%; }
 
+.header-10 {
+  padding-top: 97px !important;
+  padding-bottom: 96px !important;
+  background-image: url(../img/disease/header-10.jpg) !important;
+  background-size: cover; }
+  @media (max-width: 575.98px) {
+    .header-10 {
+      padding-top: 57px !important;
+      padding-bottom: 0 !important; } }
+
+.btn-warning {
+  color: #fff !important;
+  background-color: #D4AA14;
+  border-color: #D4AA14; }
+  .btn-warning:hover:not(:disabled) {
+    border-color: #e0a800; }
+
+.text-warning {
+  color: #D4AA14 !important; }
+
+.bg-warning {
+  background-color: #FFFCF3 !important; }
+
+.btn-suc {
+  font-size: 14px;
+  border-width: 1px;
+  font-weight: normal;
+  color: #41C752; }
+
+.card-b-1 {
+  border-width: 1px !important;
+  overflow: hidden; }
+
+.bg-bg-1 {
+  flex-grow: 1;
+  background-color: #F8F8F8; }
+
+.fidelity-head-2 {
+  border-bottom: 2px solid #F7FAFC;
+  padding: 24px 21px 19px; }
+  @media (max-width: 575.98px) {
+    .fidelity-head-2 {
+      padding: 31px 15px 18px; } }
+
+.fidelity-2 {
+  padding: 19px 21px 28px; }
+  @media (max-width: 575.98px) {
+    .fidelity-2 {
+      padding: 27px 15px 25px; } }
+
+.container-sm {
+  max-width: 924px;
+  margin: 0 auto; }
+
+.flex-grow-2 {
+  flex-grow: 2; }
+
+.card-3-header {
+  color: #fff;
+  padding: 5px 28px;
+  font-weight: bold;
+  margin: -28px -28px 26px;
+  background-color: #41C752;
+  letter-spacing: 3px; }
+
+.section-bg-svg {
+  background-image: url(../img/bg-svg.svg);
+  background-size: cover; }
+
+.card-ar {
+  padding: 0 !important;
+  border-radius: 8px; }
+
+.card-ar-header {
+  padding: 18px 36px 17px;
+  border-bottom: 2px solid #EBECED; }
+  @media (max-width: 575.98px) {
+    .card-ar-header {
+      padding-left: 15px;
+      padding-right: 15px; } }
+
+.card-ar-body {
+  padding: 25px 36px 32px; }
+  @media (max-width: 575.98px) {
+    .card-ar-body {
+      padding-left: 15px;
+      padding-right: 15px; } }
+
+.list-ar {
+  margin-bottom: 0px;
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 28px; }
+  .list-ar li {
+    padding-left: 25px;
+    position: relative;
+    margin-bottom: 8px; }
+    .list-ar li:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 5px;
+      width: 14px;
+      height: 16px;
+      background-image: url(../img/ar.svg);
+      background-size: cover; }
+
+.header-11 {
+  padding-bottom: 157px !important;
+  position: relative; }
+  .header-11:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8); }
+  .header-11 .container {
+    position: relative; }
+    .header-11 .container:after {
+      content: "";
+      position: absolute;
+      background-image: url(../img/virus.png);
+      background-size: cover;
+      width: 61px;
+      height: 60px;
+      top: 29px;
+      right: -39px; }
+
+.section-9 {
+  padding-top: 0;
+  position: relative;
+  z-index: 1; }
+  .section-9 .container-sm {
+    margin-top: -92px; }
+  .section-9:after {
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    background-color: #F7FAFC;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    transform: translate(-50%, 50%) rotate(45deg) skew(5deg, 5deg); }
+
+.card-age {
+  padding: 40px 60px 50px; }
+  @media (max-width: 767.98px) {
+    .card-age {
+      padding: 30px; } }
+  .card-age:first-child:before, .card-age:first-child:after {
+    content: "";
+    position: absolute;
+    background-image: url(../img/virus.png);
+    background-size: cover;
+    z-index: -1; }
+  .card-age:first-child:before {
+    width: 99px;
+    height: 98px;
+    top: -49px;
+    left: -67px; }
+  .card-age:first-child:after {
+    width: 329px;
+    height: 323px;
+    top: -183px;
+    right: -109px; }
+    @media (max-width: 1199.98px) {
+      .card-age:first-child:after {
+        width: 215px;
+        height: 211px;
+        top: -64px;
+        right: -126px; } }
+  .card-age .nav-main-4 {
+    margin-bottom: 23px; }
+    .card-age .nav-main-4 .nav-link.active {
+      color: #41C752; }
+    .card-age .nav-main-4 .nav-link:before {
+      bottom: -34px;
+      background-color: #EDF8EF; }
+    .card-age .nav-main-4 .nav-link:after {
+      width: 46px;
+      height: 46px;
+      border-width: 5px; }
+
+.tab-block {
+  padding: 30px 29px;
+  color: #25772F;
+  background-color: #EDF8EF; }
+  @media (max-width: 767.98px) {
+    .tab-block {
+      padding-left: 15px;
+      padding-right: 15px; } }
+
 /*# sourceMappingURL=style.css.map */

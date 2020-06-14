@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Group_830" data-name="Group 830" transform="translate(-166 -931)">
+    <g id="Group_46" data-name="Group 46" transform="translate(137 778)">
+      <g id="Group_235" data-name="Group 235" transform="translate(-16 -605)">
+        <g id="Group_211" data-name="Group 211" transform="translate(0 656)">
+          <g id="Group_206" data-name="Group 206">
+            <circle id="Ellipse_1" data-name="Ellipse 1" cx="24" cy="24" r="24" transform="translate(45 102)" fill="#ddefe2"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_4" data-name="Group 4" transform="translate(144.627 876.7)">
+      <g id="Group_3" data-name="Group 3" transform="translate(30.001 68.073)">
+        <g id="view" transform="translate(0 0)">
+          <g id="Group_2" data-name="Group 2" transform="translate(0 0)">
+            <g id="Group_1" data-name="Group 1">
+              <path id="Path_1" data-name="Path 1" d="M29.47,74.867a15.4,15.4,0,0,0-29.44,0,.617.617,0,0,0,0,.376,15.4,15.4,0,0,0,29.44,0,.619.619,0,0,0,0-.376Zm-14.72,8.8a8.6,8.6,0,1,1,8.6-8.6,8.6,8.6,0,0,1-8.6,8.6Z" transform="translate(-0.001 -63.993)" fill="#25772f"/>
+              <circle id="Ellipse_5" data-name="Ellipse 5" cx="4.917" cy="4.917" r="4.917" transform="translate(9.832 6.156)" fill="#25772f"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <path id="electricity" d="M9.359,5.788a.315.315,0,0,0-.274-.161H4.959L5.648.348a.317.317,0,0,0-.58-.206L.047,8.937a.315.315,0,0,0,.269.48H4.384l-.549,5.3a.317.317,0,0,0,.584.193l4.938-8.8a.315.315,0,0,0,0-.324Z" transform="translate(52.097 65.689) rotate(18)" fill="#25772f" stroke="#ddefe2" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

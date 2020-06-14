@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+  <g id="main" transform="translate(-25 -59)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="26" cy="26" r="26" transform="translate(25 59)" fill="#25772f"/>
+    <g id="Group_4" data-name="Group 4" transform="translate(35.815 71.978)">
+      <g id="Group_3" data-name="Group 3" transform="translate(0 2.375)">
+        <g id="view" transform="translate(0 0)">
+          <g id="Group_2" data-name="Group 2" transform="translate(0)">
+            <g id="Group_1" data-name="Group 1">
+              <path id="Path_1" data-name="Path 1" d="M29.349,74.823a15.337,15.337,0,0,0-29.319,0,.614.614,0,0,0,0,.374,15.337,15.337,0,0,0,29.319,0A.616.616,0,0,0,29.349,74.823Zm-14.66,8.766a8.569,8.569,0,1,1,8.569-8.569,8.569,8.569,0,0,1-8.569,8.569Z" transform="translate(-0.001 -63.993)" fill="#fff"/>
+              <circle id="Ellipse_5" data-name="Ellipse 5" cx="4.897" cy="4.897" r="4.897" transform="translate(9.792 6.131)" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <path id="electricity" d="M9.321,5.765a.314.314,0,0,0-.273-.16H4.939L5.624.347A.316.316,0,0,0,5.047.141L.047,8.9a.314.314,0,0,0,.268.478H4.366l-.547,5.275a.316.316,0,0,0,.582.192L9.319,6.087a.314.314,0,0,0,0-.322Z" transform="translate(22.006 0) rotate(18)" fill="#fff" stroke="#25772f" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
