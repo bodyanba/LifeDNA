@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="655.167" height="681.341" viewBox="0 0 655.167 681.341">
+    <defs>
+        <linearGradient id="prefix__linear-gradient" x1=".092" x2=".5" y1=".065" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#9fed98"/>
+            <stop offset="1" stop-color="#6dcc83"/>
+        </linearGradient>
+    </defs>
+    <path id="prefix__Контур_37" fill="url(#prefix__linear-gradient)" d="M485.226-2132s-208.838 640 116.021 606.667 389.233-54.667 473.068 66.666V-2140z" data-name="Контур 37" transform="translate(-419.148 2140)"/>
+</svg>
