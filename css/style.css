@@ -2990,4 +2990,14 @@ body {
     .bunner-bg4 {
       display: none; } }
 
+.btn-try2 {
+  padding: 6px 40px 6px 10px;
+  font-size: 18px; }
+  .btn-try2:before {
+    width: 38px;
+    height: 38px; }
+
+.mt-70 {
+  margin-top: -70px; }
+
 /*# sourceMappingURL=style.css.map */
