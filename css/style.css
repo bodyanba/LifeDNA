@@ -3023,4 +3023,73 @@ body {
     border: 2px solid #ECECEC;
     font-weight: bold; }
 
+.header-covid {
+  color: #FFF !important;
+  padding-top: 132px !important;
+  padding-bottom: 312px !important;
+  background-color: #1c468a; }
+  @media (min-width: 992px) {
+    .header-covid {
+      background-position: 190% bottom;
+      background-image: url(../img/disease/covid-19-dashboard.svg) !important;
+      background-size: auto 90%; } }
+  @media (min-width: 1200px) {
+    .header-covid {
+      background-position: right bottom; } }
+  @media (max-width: 991.98px) {
+    .header-covid {
+      padding-top: 80px !important;
+      padding-bottom: 240px !important; } }
+  @media (max-width: 767.98px) {
+    .header-covid {
+      padding-top: 54px !important;
+      padding-bottom: 0 !important; } }
+
+.mt-143 {
+  margin-top: -143px; }
+  @media (max-width: 767.98px) {
+    .mt-143 {
+      margin-top: -50px !important; } }
+
+.mt-32 {
+  margin-top: 32px; }
+
+select.form-control-2 {
+  color: #000 !important; }
+
+.text-gray-coming {
+  color: #c5c5c5; }
+
+.star2 {
+  background-image: url(../img/star2.svg) !important; }
+
+.header-predisposition {
+  color: #FFF !important;
+  padding-top: 100px !important;
+  padding-bottom: 154px !important;
+  background-color: #1c468a;
+  background-image: url(../img/disease/header-predisposition.svg) !important;
+  background-position: center bottom;
+  background-size: auto !important; }
+  @media (max-width: 575.98px) {
+    .header-predisposition {
+      background-image: url(../img/disease/header-predisposition-2.svg) !important;
+      padding-top: 60px !important;
+      padding-bottom: 130px !important; } }
+
+.card-age2 {
+  padding: 40px 60px 50px; }
+
+.ol {
+  word-wrap: break-word; }
+  @media (max-width: 575.98px) {
+    .ol {
+      padding-left: 20px; } }
+  .ol li {
+    padding-left: 24px;
+    padding-bottom: 24px; }
+    @media (max-width: 575.98px) {
+      .ol li {
+        padding-left: 4px; } }
+
 /*# sourceMappingURL=style.css.map */

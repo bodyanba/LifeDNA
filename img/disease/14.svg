@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#25772f}
+        </style>
+    </defs>
+    <g id="prefix__Сгруппировать_919" data-name="Сгруппировать 919" transform="translate(-954 -1652)">
+        <g id="prefix__Сгруппировать_830" data-name="Сгруппировать 830" transform="translate(954 1652)">
+            <g id="prefix__Group_46" data-name="Group 46">
+                <g id="prefix__Group_235" data-name="Group 235">
+                    <g id="prefix__Group_211" data-name="Group 211">
+                        <g id="prefix__Group_206" data-name="Group 206">
+                            <circle id="prefix__Ellipse_1" cx="24" cy="24" r="24" fill="#ddefe2" data-name="Ellipse 1"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="prefix__medicine" transform="rotate(45 -1483.487 1938.872)">
+            <path id="prefix__Контур_870" d="M61 301v5.889a4.38 4.38 0 1 0 8.76 0V301z" class="prefix__cls-2" data-name="Контур 870" transform="translate(0 -286.351)"/>
+            <path id="prefix__Контур_871" d="M69.76 70.269V64.38a4.38 4.38 0 0 0-8.76 0v5.889z" class="prefix__cls-2" data-name="Контур 871" transform="translate(0 -57.08)"/>
+            <path id="prefix__Контур_872" d="M271 241v5.889a4.38 4.38 0 0 0 8.76 0V241z" class="prefix__cls-2" data-name="Контур 872" transform="translate(-199.78 -229.271)"/>
+            <path id="prefix__Контур_873" d="M279.76 10.269V4.38a4.38 4.38 0 0 0-8.76 0v5.889z" class="prefix__cls-2" data-name="Контур 873" transform="translate(-199.78)"/>
+        </g>
+    </g>
+</svg>
