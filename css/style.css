@@ -3092,4 +3092,33 @@ select.form-control-2 {
       .ol li {
         padding-left: 4px; } }
 
+@media (min-width: 576px) {
+  .w-119 {
+    max-width: 119px; } }
+
+.w-190 {
+  min-width: 190px; }
+
+.h-40 {
+  min-height: 40px; }
+  .h-40.form-control {
+    box-shadow: none;
+    color: #000 !important;
+    border-color: #C1BFBF !important;
+    font-weight: bold; }
+    .h-40.form-control::-webkit-input-placeholder {
+      color: #C1BFBF;
+      font-weight: normal; }
+    .h-40.form-control::-moz-placeholder {
+      color: #C1BFBF;
+      font-weight: normal; }
+    .h-40.form-control:-ms-input-placeholder {
+      color: #C1BFBF;
+      font-weight: normal; }
+    .h-40.form-control:-moz-placeholder {
+      color: #C1BFBF;
+      font-weight: normal; }
+    .h-40.form-control[readonly] {
+      background-color: #fff; }
+
 /*# sourceMappingURL=style.css.map */
