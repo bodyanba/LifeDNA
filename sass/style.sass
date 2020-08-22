@@ -3196,7 +3196,93 @@ select
 	@media (min-width: 1200px)
 		min-width: 150px
 
+// 22.08.2020
 
+.progress-wrapper-4
+	font-size: 18px
+	margin-top: 36px
+	margin-bottom: 42px
+	.progress
+		height: 3px
+		position: absolute
+		top: 16.5px
+		left: 48px
+		right: 40px
+		width: auto
+		.progress-bar
+			width: 100%
+	span 	
+		&:before
+			width: 36px
+			height: 36px
+			padding: 5px
+			margin-bottom: 15px
+	.col-auto
+		&:nth-child(1)
+			span
+				color: $color-success
+				&:before 
+					background-color: transparent
+					background-image: url(../img/revamp/checked.svg)
+					background-size: cover
+		&:nth-child(2)
+			span
+				color: $color-gray !important
+				&:before 
+					background-clip: content-box
+					border: 2px solid $color-success
 
+.card
+	&.card-steps-2
+		padding: 40px 24px 38px
+	&.card-steps-3
+		padding: 34px 34px 41px
+		.list-check-2
+			li
+				padding-left: 23px
+				&:before 
+					top: auto !important
+
+.step-11
+	width: 28px
+	line-height: 1.9
+	border-width: 2px
+	margin-right: .5rem
+
+.green-block-4
+	border-color: $color-success
+	background-color: #E4FFEE
+	margin-top: 0 !important
+	margin-bottom: 28px !important
+	.yellow-header
+		border-color: $color-success
+
+.btn-try3
+	display: flex
+	padding: 11px 41px 11px 18px
+	border-radius: 2px
+	&:before 
+		width: 23px
+		height: 23px
+		background-size: 6px
+		margin-right: 0
+
+.btn-paypal
+	border: 0
+	padding: 11px 18px
+	background-image: linear-gradient(to bottom, #315FB4, #003087)
+
+.btn-apple
+	color: #fff
+	border: 0
+	padding: 11.5px 18px
+	background-image: linear-gradient(to bottom, #545454, #0F0F0F)
+
+.img-bacg
+	padding: 24px 21px
+	background-color: $background
+	margin-top: 36px
+	margin-bottom: 31px
+	text-align: center
 
 
