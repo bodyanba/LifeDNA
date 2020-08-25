@@ -3194,35 +3194,40 @@ select.form-control-2 {
   .mw-150 {
     min-width: 150px; } }
 
-.progress-wrapper-4 {
+.progress-wrapper-5 {
   font-size: 18px;
   margin-top: 36px;
   margin-bottom: 42px; }
-  .progress-wrapper-4 .progress {
+  .progress-wrapper-5 .progress {
     height: 3px;
     position: absolute;
     top: 16.5px;
     left: 48px;
     right: 40px;
     width: auto; }
-    .progress-wrapper-4 .progress .progress-bar {
-      width: 100%; }
-  .progress-wrapper-4 span:before {
+  .progress-wrapper-5 span:before {
     width: 36px;
     height: 36px;
     padding: 5px;
-    margin-bottom: 15px; }
-  .progress-wrapper-4 .col-auto:nth-child(1) span {
+    margin-bottom: 15px;
+    border: 0; }
+  .progress-wrapper-5 .col-auto:nth-child(1) span {
     color: #41C752; }
-    .progress-wrapper-4 .col-auto:nth-child(1) span:before {
-      background-color: transparent;
-      background-image: url(../img/revamp/checked.svg);
-      background-size: cover; }
-  .progress-wrapper-4 .col-auto:nth-child(2) span {
-    color: #777777 !important; }
-    .progress-wrapper-4 .col-auto:nth-child(2) span:before {
+    .progress-wrapper-5 .col-auto:nth-child(1) span:before {
       background-clip: content-box;
-      border: 2px solid #41C752; }
+      border: 2px solid; }
+  .progress-wrapper-5 .col-auto:nth-child(2) span {
+    color: #777777 !important; }
+    .progress-wrapper-5 .col-auto:nth-child(2) span:before {
+      border: 2px solid #E8EAEB; }
+  .progress-wrapper-5.step-2-active .col-auto:nth-child(1) span:before {
+    padding: 0;
+    background-color: transparent;
+    background-image: url(../img/revamp/checked.svg);
+    background-size: cover; }
+  .progress-wrapper-5.step-2-active .col-auto:nth-child(2) span:before {
+    background-clip: content-box;
+    border-color: #41C752; }
 
 .card.card-steps-2 {
   padding: 40px 24px 38px; }

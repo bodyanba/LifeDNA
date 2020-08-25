@@ -3198,7 +3198,7 @@ select
 
 // 22.08.2020
 
-.progress-wrapper-4
+.progress-wrapper-5
 	font-size: 18px
 	margin-top: 36px
 	margin-bottom: 42px
@@ -3209,28 +3209,39 @@ select
 		left: 48px
 		right: 40px
 		width: auto
-		.progress-bar
-			width: 100%
 	span 	
 		&:before
 			width: 36px
 			height: 36px
 			padding: 5px
 			margin-bottom: 15px
+			border: 0
 	.col-auto
 		&:nth-child(1)
 			span
 				color: $color-success
-				&:before 
-					background-color: transparent
-					background-image: url(../img/revamp/checked.svg)
-					background-size: cover
+				&:before
+					background-clip: content-box
+					border: 2px solid
 		&:nth-child(2)
 			span
 				color: $color-gray !important
 				&:before 
-					background-clip: content-box
-					border: 2px solid $color-success
+					border: 2px solid $color-border-2
+	&.step-2-active
+		.col-auto
+			&:nth-child(1)
+				span
+					&:before 
+						padding: 0
+						background-color: transparent
+						background-image: url(../img/revamp/checked.svg)
+						background-size: cover
+			&:nth-child(2)
+				span
+					&:before 
+						background-clip: content-box
+						border-color: $color-success
 
 .card
 	&.card-steps-2
