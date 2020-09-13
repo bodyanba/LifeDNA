@@ -1,0 +1,19 @@
+<svg id="membership" xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #efefef;
+      }
+
+      .cls-2 {
+        fill: #fda600;
+      }
+    </style>
+  </defs>
+  <circle id="Эллипс_2" data-name="Эллипс 2" class="cls-1" cx="31" cy="31" r="31"/>
+  <g id="membership-2" data-name="membership" transform="translate(14 -71)">
+    <path id="Контур_39" data-name="Контур 39" class="cls-2" d="M0,91v21.358H33.137V91Zm10.744,17.877-7.006-7.006L6.26,96.825h8.966l2.523,5.046Zm18.445-2.344H19.481v-1.942h9.708Zm0-3.883H19.481v-1.942h9.708Zm0-3.883H19.481V96.825h9.708Z" transform="translate(0 0)"/>
+    <path id="Контур_40" data-name="Контур 40" class="cls-2" d="M108.778,212.942H100.27l.971-1.942h6.567Z" transform="translate(-93.78 -112.233)"/>
+    <path id="Контур_41" data-name="Контур 41" class="cls-2" d="M119.173,271l-3.481,3.481L112.21,271Z" transform="translate(-104.948 -168.35)"/>
+  </g>
+</svg>

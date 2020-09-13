@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="434.46" height="498.599" viewBox="0 0 434.46 498.599">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#c4c4c4"/>
+            <stop offset="1" stop-color="gray" stop-opacity=".129"/>
+        </linearGradient>
+        <style>
+            .cls-1{opacity:.23;fill:url(#linear-gradient)}
+        </style>
+    </defs>
+    <g id="Сгруппировать_38" transform="translate(-1077.401 -58.401)">
+        <rect id="Прямоугольник_21" width="307.209" height="307.209" class="cls-1" rx="17" transform="rotate(45 576.82 1591.958)"/>
+        <rect id="Прямоугольник_22" width="148.826" height="148.826" class="cls-1" rx="17" transform="rotate(45 245.387 1775.536)"/>
+        <rect id="Прямоугольник_23" width="102.826" height="102.826" class="cls-1" rx="17" transform="rotate(45 472.3 1454.528)"/>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1892.375" height="587.126" viewBox="0 0 1892.375 587.126">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#c4db81"/>
+            <stop offset="1" stop-color="gray" stop-opacity=".129"/>
+        </linearGradient>
+        <style>
+            .cls-1{opacity:.23;fill:url(#linear-gradient)}
+        </style>
+    </defs>
+    <g id="Сгруппировать_112" transform="translate(271.599 -804.143)">
+        <g id="Сгруппировать_65" transform="translate(-1349 745.742)">
+            <rect id="Прямоугольник_21" width="361.755" height="361.755" class="cls-1" rx="17" transform="rotate(45 596.104 1638.516)"/>
+            <rect id="Прямоугольник_22" width="175.25" height="175.25" class="cls-1" rx="17" transform="rotate(45 205.825 1854.69)"/>
+            <rect id="Прямоугольник_23" width="121.083" height="121.083" class="cls-1" rx="17" transform="rotate(45 473.026 1476.685)"/>
+        </g>
+        <g id="Сгруппировать_67" transform="translate(-96 141.889)">
+            <g id="Сгруппировать_66" transform="translate(1257.001 983.192)">
+                <rect id="Прямоугольник_27" width="170.356" height="170.356" class="cls-1" rx="17" transform="rotate(45 60.23 145.408)"/>
+            </g>
+            <rect id="Прямоугольник_28" width="240.337" height="240.337" class="cls-1" rx="17" transform="rotate(45 -113.152 2234.42)"/>
+        </g>
+    </g>
+</svg>
