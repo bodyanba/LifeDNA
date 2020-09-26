@@ -96,6 +96,14 @@ $(document).ready(function() {
 		$("body").toggleClass("menubar-in");
 	});
 
+	$('a[data-toggle="pill"]').on('shown.bs.tab', function (e) {
+ 		$('.owl-2').trigger('refresh.owl.carousel');
+	});
+	
+	$('[class*="collapse-corona"]').on('shown.bs.collapse', function () {
+	  $('.owl-2').trigger('refresh.owl.carousel');
+	})
+
 	var typed = new Typed('.element', {
 		strings: ["metabolism", "energy", "cognition", "mental health", "natural detoxification process", "immune response", "brain health"],
 		typeSpeed: 50,

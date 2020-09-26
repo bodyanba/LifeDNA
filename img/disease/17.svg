@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Сгруппировать_830" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <clipPath id="clip-path">
+            <circle id="Ellipse_1" cx="24" cy="24" r="24" class="cls-1"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:#e8e8e8}.cls-3{fill:#acacac}
+        </style>
+    </defs>
+    <g id="Group_46">
+        <g id="Group_235">
+            <g id="Group_211">
+                <g id="Group_206">
+                    <g id="Группа_масок_1" clip-path="url(#clip-path)">
+                        <g id="main_grey" transform="translate(-155 -550)">
+                            <g id="main" transform="translate(155 550)">
+                                <g id="Group_46-2">
+                                    <g id="Group_235-2">
+                                        <g id="Group_211-2">
+                                            <g id="Group_206-2">
+                                                <circle id="Ellipse_1-2" cx="24" cy="24" r="24" class="cls-1"/>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="XMLID_173_" transform="translate(165.001 531.756)">
+                                <path id="XMLID_175_" d="M278.164 35.381a5.082 5.082 0 0 0-6.433-3.2l-6.411 2.147 3.228 9.637 6.411-2.147a5.082 5.082 0 0 0 3.2-6.433z" class="cls-3" transform="translate(-250.671)"/>
+                                <path id="XMLID_184_" d="M2.818 32.447a5.082 5.082 0 0 0 .652 9.367l6.41 2.148 3.228-9.637L6.7 32.177a5.049 5.049 0 0 0-3.882.27z" class="cls-3"/>
+                                <path id="XMLID_185_" d="M184.507 281.641a.828.828 0 1 0-.828.828.843.843 0 0 0 .828-.828z" class="cls-3" transform="translate(-172.753 -235.158)"/>
+                                <path id="XMLID_186_" d="M239.178 205.813a.828.828 0 1 0 .828.828.838.838 0 0 0-.828-.828z" class="cls-3" transform="translate(-225.189 -164.3)"/>
+                                <path id="XMLID_188_" d="M294.678 280.813a.828.828 0 1 0 .828.828.838.838 0 0 0-.828-.828z" class="cls-3" transform="translate(-277.624 -235.158)"/>
+                                <path id="XMLID_189_" d="M239.178 350.813a.828.828 0 1 0 .828.828.838.838 0 0 0-.828-.828z" class="cls-3" transform="translate(-225.189 -301.293)"/>
+                                <path id="XMLID_190_" d="M286.178 440.813a.828.828 0 1 0 .828.828.838.838 0 0 0-.828-.828z" class="cls-3" transform="translate(-269.593 -386.323)"/>
+                                <path id="XMLID_191_" d="M192.178 440.813a.828.828 0 1 0 .828.828.838.838 0 0 0-.828-.828z" class="cls-3" transform="translate(-180.784 -386.323)"/>
+                                <path id="XMLID_192_" d="M140.511 369.146a.828.828 0 1 0 .828.828.838.838 0 0 0-.828-.828z" class="cls-3" transform="translate(-131.97 -318.614)"/>
+                                <path id="XMLID_193_" d="M337.845 369.146a.828.828 0 1 0 .828.828.838.838 0 0 0-.828-.828z" class="cls-3" transform="translate(-318.407 -318.614)"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
