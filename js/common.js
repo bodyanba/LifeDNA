@@ -104,6 +104,11 @@ $(document).ready(function() {
 	  $('.owl-2').trigger('refresh.owl.carousel');
 	})
 
+	// $(".owl-qwer").owlCarousel({
+	//     mouseDrag: false,
+	//     touchDrag: false,
+	//   });
+
 	var typed = new Typed('.element', {
 		strings: ["metabolism", "energy", "cognition", "mental health", "natural detoxification process", "immune response", "brain health"],
 		typeSpeed: 50,

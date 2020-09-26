@@ -3566,7 +3566,8 @@ select.form-control-2 {
   width: 6px !important; }
 
 .owl-corona {
-  position: relative; }
+  position: relative;
+  min-height: 44px; }
   .owl-corona .owl-nav {
     position: static !important;
     transform: initial; }
