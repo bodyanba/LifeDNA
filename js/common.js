@@ -65,8 +65,27 @@ $(document).ready(function() {
 		});
 	});
 
+	var owl4 = $('.owl-4');
+	owl4.owlCarousel({
+	  items: 1,
+	  margin: 20,
+	  nav: true,
+	  autoHeight: true,
+	  smartSpeed: 1000,
+    mouseDrag: false,
+    touchDrag: false,
+	  navText: ["", ""],
+	  onInitialized: function(e) {
+	    var index = e.item.index + 1,
+	        count = e.item.count;
+	    owl4.find(".owl-prev").after("<span class='info'><span class='index'>" + index + "</span> / <span class='count'>" + count + "</span></span>");
+	  },
+	});
+	owl4.on('changed.owl.carousel', function(e) {
+	  owl4.find(".info").find(".index").text(e.item.index + 1);
+	});
+
 	$('.circle-progress').each(function() {
-		console.log(this);
 		var progressValue = $(this).find('.progress-ing');
 		var progressNum = $(this).find('.progress-num span').html();
 		var radius = progressValue.attr('r');
@@ -121,16 +140,16 @@ $(document).ready(function() {
 
 	$('a[data-toggle="pill"]').on('shown.bs.tab', function (e) {
  		$('.owl-corona').slick('setPosition');
- 		$('.owl-2').trigger('refresh.owl.carousel');
+ 		owl4.trigger('refresh.owl.carousel');
 	});
 	
 	$('[class*="collapse-answer"]').on('shown.bs.collapse', function () {
  		$('.owl-corona').slick('setPosition');
-	  $('.owl-2').trigger('refresh.owl.carousel');
+	  owl4.trigger('refresh.owl.carousel');
 	});
 	
 	$('.owl-corona').on('afterChange', function () {
-	  $('.owl-2').trigger('refresh.owl.carousel');
+	  owl4.trigger('refresh.owl.carousel');
 	});
 
 	var typed = new Typed('.element', {

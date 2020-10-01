@@ -3607,4 +3607,14 @@ select.form-control-2 {
     .owl-corona .slick-next {
       right: 0; } }
 
+.owl-4 .owl-nav > * {
+  vertical-align: middle; }
+.owl-4 .owl-nav .info {
+  text-align: center;
+  min-width: 28px;
+  margin: 0 0.5rem; }
+.owl-4 .owl-nav [class*=owl-] {
+  width: 6.45px;
+  height: 10.25px; }
+
 /*# sourceMappingURL=style.css.map */
