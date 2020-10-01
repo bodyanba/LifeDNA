@@ -65,6 +65,21 @@ $(document).ready(function() {
 		});
 	});
 
+	$('.circle-progress').each(function() {
+		console.log(this);
+		var progressValue = $(this).find('.progress-ing');
+		var progressNum = $(this).find('.progress-num span').html();
+		var radius = progressValue.attr('r');
+		var circumference = 2 * Math.PI * radius;
+		function progress(value) {
+			var progress = value / 100;
+			var dashoffset = circumference * (1 - progress);
+			progressValue.css('strokeDashoffset', dashoffset);
+		};
+		progressValue.css('strokeDasharray', circumference);
+		progress(progressNum);
+	});
+
   $('.owl-corona').slick({
   	arrows: true,
   	infinite: false,
@@ -116,20 +131,6 @@ $(document).ready(function() {
 	
 	$('.owl-corona').on('afterChange', function () {
 	  $('.owl-2').trigger('refresh.owl.carousel');
-	});
-
-	$('.circle-progress').each(function() {
-		var progressValue = $(this).find('.progress-ing');
-		var progressNum = $(this).find('.progress-num span').html();
-		var radius = progressValue.attr('r');
-		var circumference = 2 * Math.PI * radius;
-		function progress(value) {
-			var progress = value / 100;
-			var dashoffset = circumference * (1 - progress);
-			progressValue.css('strokeDashoffset', dashoffset);
-		};
-		progressValue.css('strokeDasharray', circumference);
-		progress(progressNum);
 	});
 
 	var typed = new Typed('.element', {
