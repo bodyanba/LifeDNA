@@ -3458,23 +3458,36 @@ select.form-control-2 {
   border-radius: 4px 4px 0 0; }
 .section-genetic .card .bg-pink {
   background: #fe417b;
-  border-radius: 4px 4px 0 0; }
-.section-genetic .card .span {
-  font-size: 32px;
-  font-weight: bold;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  border-radius: 4px 4px 0 0;
   color: #000; }
 .section-genetic .card .square {
   height: 18px;
   width: 18px;
   border-radius: 4px; }
 .section-genetic .card .blue-square {
-  background: #00ccf2; }
+  background: #00ccf2;
+  stroke: #00ccf2; }
 .section-genetic .card .orange-square {
-  background: #fda600; }
+  background: #fda600;
+  stroke: #fda600; }
+
+.circle-progress {
+  position: relative; }
+  .circle-progress svg {
+    transform: rotate(-90deg); }
+    .circle-progress svg .progress-meter, .circle-progress svg .progress-ing {
+      fill: none; }
+    .circle-progress svg .progress-meter {
+      stroke: #F3F3F3; }
+    .circle-progress svg .progress-ing {
+      stroke-linecap: round; }
+  .circle-progress .progress-num {
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
 
 .big-circle {
   font-size: 67px;
@@ -3536,52 +3549,62 @@ select.form-control-2 {
           width: 9px;
           height: 14px; } }
 
-.radio-group-corona > div {
-  border: 2px solid #41c752;
-  color: #000;
-  font-weight: bold;
-  padding-left: 24px;
-  padding-right: 24px; }
-  .radio-group-corona > div:hover {
-    color: #777777; }
-.radio-group-corona .male {
-  position: relative; }
-  .radio-group-corona .male:before {
-    content: "";
-    transition: 0.3s;
-    position: absolute;
-    top: 50%;
-    left: -26px;
-    width: 19px;
-    height: 19px;
-    transform: translateY(-50%);
-    background-image: url(../img/MTHFR/check-1.svg);
-    background-size: cover;
-    opacity: 0; }
-.radio-group-corona input:checked ~ div .male:before {
-  opacity: 1; }
+.radio-group-corona {
+  pointer-events: none; }
+  .radio-group-corona > div {
+    border: 2px solid #41c752;
+    color: #000;
+    font-weight: bold;
+    padding-left: 24px;
+    padding-right: 24px; }
+    .radio-group-corona > div:hover {
+      color: #777777; }
+  .radio-group-corona .male {
+    position: relative; }
+    .radio-group-corona .male:before {
+      content: "";
+      transition: 0.3s;
+      position: absolute;
+      top: 50%;
+      left: -26px;
+      width: 19px;
+      height: 19px;
+      transform: translateY(-50%);
+      background-image: url(../img/MTHFR/check-1.svg);
+      background-size: cover;
+      opacity: 0; }
+  .radio-group-corona input:checked ~ div .male:before {
+    opacity: 1; }
 
 .collapse-arrows img {
   display: inline !important;
   width: 6px !important; }
 
-.owl-corona {
-  position: relative;
-  min-height: 44px; }
-  .owl-corona .owl-nav {
-    position: static !important;
-    transform: initial; }
-    .owl-corona .owl-nav .owl-prev, .owl-corona .owl-nav .owl-next {
-      width: 8px;
-      height: 14px;
-      position: absolute;
-      top: 50%;
-      margin-top: -7px; }
-    .owl-corona .owl-nav .owl-prev {
-      left: -22px; }
-    .owl-corona .owl-nav .owl-next {
-      right: -22px; }
-    .owl-corona .owl-nav .info {
-      display: none; }
+.owl-corona .slick-prev, .owl-corona .slick-next {
+  top: 22px;
+  width: 8px;
+  height: 14px;
+  background-image: url(../img/arrow-owl-green.svg);
+  background-size: cover;
+  z-index: 9;
+  transition: 0.3s; }
+  .owl-corona .slick-prev.slick-disabled, .owl-corona .slick-next.slick-disabled {
+    opacity: 0.65;
+    pointer-events: none; }
+  .owl-corona .slick-prev:not(.slick-disabled):hover, .owl-corona .slick-next:not(.slick-disabled):hover {
+    opacity: 0.65; }
+  .owl-corona .slick-prev:before, .owl-corona .slick-next:before {
+    display: none; }
+.owl-corona .slick-prev {
+  left: 46px;
+  transform: translate(0, -50%) rotate(-180deg); }
+  @media (max-width: 575.98px) {
+    .owl-corona .slick-prev {
+      left: 0; } }
+.owl-corona .slick-next {
+  right: 46px; }
+  @media (max-width: 575.98px) {
+    .owl-corona .slick-next {
+      right: 0; } }
 
 /*# sourceMappingURL=style.css.map */

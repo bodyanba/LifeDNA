@@ -65,6 +65,14 @@ $(document).ready(function() {
 		});
 	});
 
+  $('.owl-corona').slick({
+  	arrows: true,
+  	infinite: false,
+  	draggable: false,
+  	swipe: false,
+  	adaptiveHeight: true,
+	});
+
 	$(".play-button").on("click", function(){
 		$(this).parent().fadeOut();
 	});
@@ -92,22 +100,37 @@ $(document).ready(function() {
 		$('[data-href="' + href + '"]').trigger("click");
 	});
 
-	$("#sandwich").on("click", function(){
+	$("#sandwich").on("click", function() {
 		$("body").toggleClass("menubar-in");
 	});
 
 	$('a[data-toggle="pill"]').on('shown.bs.tab', function (e) {
+ 		$('.owl-corona').slick('setPosition');
  		$('.owl-2').trigger('refresh.owl.carousel');
 	});
 	
-	$('[class*="collapse-corona"]').on('shown.bs.collapse', function () {
+	$('[class*="collapse-answer"]').on('shown.bs.collapse', function () {
+ 		$('.owl-corona').slick('setPosition');
 	  $('.owl-2').trigger('refresh.owl.carousel');
-	})
+	});
+	
+	$('.owl-corona').on('afterChange', function () {
+	  $('.owl-2').trigger('refresh.owl.carousel');
+	});
 
-	// $(".owl-qwer").owlCarousel({
-	//     mouseDrag: false,
-	//     touchDrag: false,
-	//   });
+	$('.circle-progress').each(function() {
+		var progressValue = $(this).find('.progress-ing');
+		var progressNum = $(this).find('.progress-num span').html();
+		var radius = progressValue.attr('r');
+		var circumference = 2 * Math.PI * radius;
+		function progress(value) {
+			var progress = value / 100;
+			var dashoffset = circumference * (1 - progress);
+			progressValue.css('strokeDashoffset', dashoffset);
+		};
+		progressValue.css('strokeDasharray', circumference);
+		progress(progressNum);
+	});
 
 	var typed = new Typed('.element', {
 		strings: ["metabolism", "energy", "cognition", "mental health", "natural detoxification process", "immune response", "brain health"],

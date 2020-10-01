@@ -3476,13 +3476,6 @@ select
 		.bg-pink
 			background: #fe417b
 			border-radius: 4px 4px 0 0
-		.span
-			font-size: 32px
-			font-weight: bold
-			position: absolute
-			top: 50%
-			left: 50%
-			transform: translate(-50%, -50%)	
 			color: #000
 		.square
 			height: 18px
@@ -3490,8 +3483,28 @@ select
 			border-radius: 4px
 		.blue-square
 			background: #00ccf2
+			stroke: #00ccf2
 		.orange-square
 			background: #fda600
+			stroke: #fda600
+
+.circle-progress
+	position: relative
+	svg
+		transform: rotate(-90deg)
+		.progress-meter, .progress-ing
+			fill: none
+		.progress-meter
+			stroke: #F3F3F3
+		.progress-ing
+			stroke-linecap: round	
+	.progress-num
+		font-size: 32px
+		font-weight: bold
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)	
 
 .big-circle
 	font-size: 67px
@@ -3553,6 +3566,7 @@ select
 				height: 14px
 
 .radio-group-corona
+	pointer-events: none
 	> div
 		border: 2px solid #41c752
 		color: #000
@@ -3587,22 +3601,40 @@ select
 		display: inline !important
 		width: 6px !important
 
-.owl-corona 
-	position: relative
-	min-height: 44px
-	.owl-nav 
-		position: static !important
-		transform: initial 
-		.owl-prev, .owl-next
-			width: 8px
-			height: 14px
-			position: absolute 
-			top: 50% 
-			margin-top: -7px 
-		.owl-prev
-				left: -22px 
-		.owl-next
-			right: -22px 
-		.info 
+.owl-corona
+	.slick-prev, .slick-next
+		top: 22px
+		width: 8px
+		height: 14px
+		background-image: url(../img/arrow-owl-green.svg)
+		background-size: cover
+		z-index: 9
+		transition: .3s
+		&.slick-disabled
+			opacity: 0.65
+			pointer-events: none
+		&:not(.slick-disabled):hover
+			opacity: 0.65
+		&:before  
 			display: none
+	.slick-prev
+		left: 46px
+		transform: translate(0, -50%) rotate(-180deg)
+		@media (max-width: 575.98px)
+			left: 0
+	.slick-next
+		right: 46px
+		@media (max-width: 575.98px)
+			right: 0
 
+// .owl-4
+// 	.owl-nav
+// 		> *
+// 			vertical-align: middle
+// 		.info
+// 			text-align: center
+// 			min-width: 28px
+// 			margin: 0 .5rem
+// 		[class*=owl-]
+// 			width: 6.45px
+// 			height: 10.25px

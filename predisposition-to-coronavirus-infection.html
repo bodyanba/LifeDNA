@@ -7,6 +7,8 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 		<link rel="stylesheet" href="libs/owl-carousel-2/owl.carousel.min.css">
 		<link rel="stylesheet" href="libs/owl-carousel-2/owl.theme.default.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
@@ -121,6 +123,7 @@
 								<div class="text-white text-center bg-green-3 py-2 px-3 fz-16">
 									<div class="py-1">See the factors that affect your risk</div>
 								</div>
+
 								<div class="owl-2 owl-carousel owl-theme">
 									<div>
 										<div class="pt-4 px-4">
@@ -130,44 +133,46 @@
 										</div>
 										<ul class="nav nav-main nav-corona justify-content-center mt-4 mb-0">
 											<li class="nav-item">
-												<a class="nav-link active py-2" data-toggle="pill" href="#description1">
+												<a class="nav-link active py-2" data-toggle="pill" href="#description-1">
 													<span>Description</span>
 												</a>
 											</li>
 											<li class="nav-item">
-												<a class="nav-link py-2" data-toggle="pill" href="#answer1">
+												<a class="nav-link py-2" data-toggle="pill" href="#answer-1">
 													<span>Answer</span>
 												</a>
 											</li>
 										</ul>
 										<div class="tab-content p-4 fz-16 text-center">
-											<div class="tab-pane fade show active" id="description1">Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Facilis quia reprehenderit, sapiente labore dignissimos obcaecati excepturi, quisquam aperiam.</div>
-											<div class="tab-pane fade" id="answer1">
-												<div class="row justify-content-center">
-													<div class="col-10 col-sm-6">
-														<div class="owl-2 owl-corona owl-carousel owl-theme">
-															<label class="radio-group-2 radio-group-corona mb-0">
-							                  <input type="checkbox" name="corona1" value="1">
-							                  <div class="py-2 mx-2"><span class="male">Male</span></div>
-							                </label>
+											<div class="tab-pane fade show active" id="description-1">Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Facilis quia reprehenderit, sapiente labore dignissimos obcaecati excepturi, quisquam aperiam.</div>
+											<div class="tab-pane fade" id="answer-1">
+												<div class="owl-corona">
+													<div>
+														<div class="row justify-content-center">
+															<div class="col-10 col-sm-6">
+																<label class="radio-group-2 radio-group-corona mb-0">
+								                  <input type="checkbox" checked name="corona-1" value="1">
+								                  <div class="py-2 mx-2"><span class="male">Male</span></div>
+								                </label>
+															</div>
 														</div>
+														<div class="collapse-arrows mt-4 pb-3">
+															<p>A recent study based on global data reported significantly higher mortality rates in men than in women with confirmed cases of COVID-19.</p>
+															<div class="collapse-answer-1-1 collapse">
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum dolore, rerum obcaecati libero a sit odit, iure tempora! Corrupti sint commodi iste, accusamus neque optio cum, placeat. Sit, delectus ipsum.</p>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis maxime non fugit obcaecati, cupiditate corrupti quod natus rem at, in ratione omnis ab porro. Iste nobis error sit quia sunt.</p>
+																<div class="pt-2">
+																	<a href=".collapse-answer-1-1" data-toggle="collapse">Read less<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
+																</div>
+															</div>
+															<div class="collapse-answer-1-1 collapse show">
+																<div class="pt-2">
+																	<a href=".collapse-answer-1-1" data-toggle="collapse">Read more<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
+																</div>
+															</div>
+														</div>	
 													</div>
-												</div>
-												<div class="collapse-arrows mt-4 pb-3">
-													<p>A recent study based on global data reported significantly higher mortality rates in men than in women with confirmed cases of COVID-19.</p>
-													<div class="collapse-corona-1 collapse">
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum dolore, rerum obcaecati libero a sit odit, iure tempora! Corrupti sint commodi iste, accusamus neque optio cum, placeat. Sit, delectus ipsum.</p>
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis maxime non fugit obcaecati, cupiditate corrupti quod natus rem at, in ratione omnis ab porro. Iste nobis error sit quia sunt.</p>
-														<div class="pt-2">
-															<a href=".collapse-corona-1" data-toggle="collapse">Read less<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
-														</div>
-													</div>
-													<div class="collapse-corona-1 collapse show">
-														<div class="pt-2">
-															<a href=".collapse-corona-1" data-toggle="collapse">Read more<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
-														</div>
-													</div>
-												</div>		
+												</div>	
 											</div>
 										</div>
 									</div>
@@ -179,227 +184,329 @@
 										</div>
 										<ul class="nav nav-main nav-corona justify-content-center mt-4 mb-0">
 											<li class="nav-item">
-												<a class="nav-link active py-2" data-toggle="pill" href="#description2">
+												<a class="nav-link active py-2" data-toggle="pill" href="#description-2">
 													<span>Description</span>
 												</a>
 											</li>
 											<li class="nav-item">
-												<a class="nav-link py-2" data-toggle="pill" href="#answer2">
+												<a class="nav-link py-2" data-toggle="pill" href="#answer-2">
 													<span>Answer</span>
 												</a>
 											</li>
 										</ul>
 										<div class="tab-content p-4 fz-16 text-center">
-											<div class="tab-pane fade show active" id="description2">Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Facilis quia reprehenderit.</div>
-											<div class="tab-pane fade" id="answer2">
-												<div class="row justify-content-center">
-													<div class="col-10 col-sm-7">
-														<div class="owl-2 owl-corona owl-carousel owl-theme">
-															<label class="radio-group-2 radio-group-corona mb-0">
-							                  <input type="checkbox" name="corona1" value="1">
-							                  <div class="py-2 mx-2"><span class="male">Cardiovascular Disease</span></div>
-							                </label>
-															<label class="radio-group-2 radio-group-corona mb-0">
-							                  <input type="checkbox" name="corona1" value="1">
-							                  <div class="py-2 mx-2"><span class="male">Cardiovascular Disease</span></div>
-							                </label>
-															<label class="radio-group-2 radio-group-corona mb-0">
-							                  <input type="checkbox" name="corona1" value="1">
-							                  <div class="py-2 mx-2"><span class="male">Cardiovascular Disease</span></div>
-							                </label>
+											<div class="tab-pane fade show active" id="description-2">Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Facilis quia reprehenderit.</div>
+											<div class="tab-pane fade" id="answer-2">
+												<div class="owl-corona">
+													<div>
+														<div class="row justify-content-center">
+															<div class="col-10 col-sm-7">
+																<label class="radio-group-2 radio-group-corona mb-0">
+								                  <input type="checkbox" checked name="corona-2" value="1">
+								                  <div class="py-2 mx-2"><span class="male">Cardiovascular Disease</span></div>
+								                </label>
+															</div>
 														</div>
+														<div class="collapse-arrows mt-4 pb-3">
+															<p>A recent study based on global data reported significantly higher mortality rates in men than in women with confirmed cases of COVID-19.</p>
+															<div class="collapse-answer-2-1 collapse">
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum dolore, rerum obcaecati libero a sit odit, iure tempora! Corrupti sint commodi iste, accusamus neque optio cum, placeat. Sit, delectus ipsum.</p>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis maxime non fugit obcaecati, cupiditate corrupti quod natus rem at, in ratione omnis ab porro. Iste nobis error sit quia sunt.</p>
+																<div class="pt-2">
+																	<a href=".collapse-answer-2-1" data-toggle="collapse">Read less<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
+																</div>
+															</div>
+															<div class="collapse-answer-2-1 collapse show">
+																<div class="pt-2">
+																	<a href=".collapse-answer-2-1" data-toggle="collapse">Read more<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div>
+														<div class="row justify-content-center">
+															<div class="col-10 col-sm-7">
+																<label class="radio-group-2 radio-group-corona mb-0">
+								                  <input type="checkbox" checked name="corona-2" value="1">
+								                  <div class="py-2 mx-2"><span class="male">Cardiovascular Disease</span></div>
+								                </label>
+															</div>
+														</div>
+														<div class="collapse-arrows mt-4 pb-3">
+															<p>A recent study based on global data reported significantly higher mortality rates in men than in women with confirmed cases of COVID-19.</p>
+															<div class="collapse-answer-2-2 collapse">
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum dolore, rerum obcaecati libero a sit odit, iure tempora! Corrupti sint commodi iste, accusamus neque optio cum, placeat. Sit, delectus ipsum.</p>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis maxime non fugit obcaecati, cupiditate corrupti quod natus rem at, in ratione omnis ab porro. Iste nobis error sit quia sunt.</p>
+																<div class="pt-2">
+																	<a href=".collapse-answer-2-2" data-toggle="collapse">Read less<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
+																</div>
+															</div>
+															<div class="collapse-answer-2-2 collapse show">
+																<div class="pt-2">
+																	<a href=".collapse-answer-2-2" data-toggle="collapse">Read more<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
+																</div>
+															</div>
+														</div>	
+													</div>
+													<div>
+														<div class="row justify-content-center">
+															<div class="col-10 col-sm-7">
+																<label class="radio-group-2 radio-group-corona mb-0">
+								                  <input type="checkbox" checked name="corona-2" value="1">
+								                  <div class="py-2 mx-2"><span class="male">Cardiovascular Disease</span></div>
+								                </label>
+															</div>
+														</div>
+														<div class="collapse-arrows mt-4 pb-3">
+															<p>A recent study based on global data reported significantly higher mortality rates in men than in women with confirmed cases of COVID-19.</p>
+															<div class="collapse-answer-2-3 collapse">
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum dolore, rerum obcaecati libero a sit odit, iure tempora! Corrupti sint commodi iste, accusamus neque optio cum, placeat. Sit, delectus ipsum.</p>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis maxime non fugit obcaecati, cupiditate corrupti quod natus rem at, in ratione omnis ab porro. Iste nobis error sit quia sunt.</p>
+																<div class="pt-2">
+																	<a href=".collapse-answer-2-3" data-toggle="collapse">Read less<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
+																</div>
+															</div>
+															<div class="collapse-answer-2-3 collapse show">
+																<div class="pt-2">
+																	<a href=".collapse-answer-2-3" data-toggle="collapse">Read more<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
+																</div>
+															</div>
+														</div>	
 													</div>
 												</div>
-												<div class="collapse-arrows mt-4 pb-3">
-													<p>A recent study based on global data reported significantly higher mortality rates in men than in women with confirmed cases of COVID-19.</p>
-													<div class="collapse-corona-2 collapse">
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum dolore, rerum obcaecati libero a sit odit, iure tempora! Corrupti sint commodi iste, accusamus neque optio cum, placeat. Sit, delectus ipsum.</p>
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis maxime non fugit obcaecati, cupiditate corrupti quod natus rem at, in ratione omnis ab porro. Iste nobis error sit quia sunt.</p>
-														<div class="pt-2">
-															<a href=".collapse-corona-2" data-toggle="collapse">Read less<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
-														</div>
-													</div>
-													<div class="collapse-corona-2 collapse show">
-														<div class="pt-2">
-															<a href=".collapse-corona-2" data-toggle="collapse">Read more<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
-														</div>
-													</div>
-												</div>		
 											</div>
 										</div>
 									</div>
 									<div>
 										<div class="pt-4 px-4">
 											<div class="row fz-16 font-weight-bold text-black">
-												<div class="col-sm-7 text-center text-sm-left mt-5 mt-sm-0">Lorem, ipsum dolor sit amet consectetur adipisicing?</div> 
+												<div class="col-sm-7 text-center text-sm-left mt-5 mt-sm-0">Do you have a history or were you diagnosed with any of the following medical conditions?</div> 
 											</div>
 										</div>
 										<ul class="nav nav-main nav-corona justify-content-center mt-4 mb-0">
 											<li class="nav-item">
-												<a class="nav-link active py-2" data-toggle="pill" href="#description3">
+												<a class="nav-link active py-2" data-toggle="pill" href="#description-3">
 													<span>Description</span>
 												</a>
 											</li>
 											<li class="nav-item">
-												<a class="nav-link py-2" data-toggle="pill" href="#answer3">
+												<a class="nav-link py-2" data-toggle="pill" href="#answer-3">
 													<span>Answer</span>
 												</a>
 											</li>
 										</ul>
 										<div class="tab-content p-4 fz-16 text-center">
-											<div class="tab-pane fade show active" id="description3">Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Facilis quia reprehenderit, sapiente.</div>
-											<div class="tab-pane fade" id="answer3">
-												<div class="row justify-content-center">
-													<div class="col-10 col-sm-7">
-														<div class="owl-2 owl-corona owl-carousel owl-theme">
-															<label class="radio-group-2 radio-group-corona mb-0">
-							                  <input type="checkbox" name="corona1" value="1">
-							                  <div class="py-2 mx-2"><span class="male">Cardiovascular Disease</span></div>
-							                </label>
-															<label class="radio-group-2 radio-group-corona mb-0">
-							                  <input type="checkbox" name="corona1" value="1">
-							                  <div class="py-2 mx-2"><span class="male">Cardiovascular Disease</span></div>
-							                </label>
-															<label class="radio-group-2 radio-group-corona mb-0">
-							                  <input type="checkbox" name="corona1" value="1">
-							                  <div class="py-2 mx-2"><span class="male">Cardiovascular Disease</span></div>
-							                </label>
+											<div class="tab-pane fade show active" id="description-3">Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Facilis quia reprehenderit.</div>
+											<div class="tab-pane fade" id="answer-3">
+												<div class="owl-corona">
+													<div>
+														<div class="row justify-content-center">
+															<div class="col-10 col-sm-7">
+																<label class="radio-group-2 radio-group-corona mb-0">
+								                  <input type="checkbox" checked name="corona-3" value="1">
+								                  <div class="py-2 mx-2"><span class="male">Cardiovascular Disease</span></div>
+								                </label>
+															</div>
 														</div>
+														<div class="collapse-arrows mt-4 pb-3">
+															<p>A recent study based on global data reported significantly higher mortality rates in men than in women with confirmed cases of COVID-19.</p>
+															<div class="collapse-answer-3-1 collapse">
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum dolore, rerum obcaecati libero a sit odit, iure tempora! Corrupti sint commodi iste, accusamus neque optio cum, placeat. Sit, delectus ipsum.</p>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis maxime non fugit obcaecati, cupiditate corrupti quod natus rem at, in ratione omnis ab porro. Iste nobis error sit quia sunt.</p>
+																<div class="pt-2">
+																	<a href=".collapse-answer-3-1" data-toggle="collapse">Read less<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
+																</div>
+															</div>
+															<div class="collapse-answer-3-1 collapse show">
+																<div class="pt-2">
+																	<a href=".collapse-answer-3-1" data-toggle="collapse">Read more<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div>
+														<div class="row justify-content-center">
+															<div class="col-10 col-sm-7">
+																<label class="radio-group-2 radio-group-corona mb-0">
+								                  <input type="checkbox" checked name="corona-3" value="1">
+								                  <div class="py-2 mx-2"><span class="male">Cardiovascular Disease</span></div>
+								                </label>
+															</div>
+														</div>
+														<div class="collapse-arrows mt-4 pb-3">
+															<p>A recent study based on global data reported significantly higher mortality rates in men than in women with confirmed cases of COVID-19.</p>
+															<div class="collapse-answer-3-2 collapse">
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum dolore, rerum obcaecati libero a sit odit, iure tempora! Corrupti sint commodi iste, accusamus neque optio cum, placeat. Sit, delectus ipsum.</p>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis maxime non fugit obcaecati, cupiditate corrupti quod natus rem at, in ratione omnis ab porro. Iste nobis error sit quia sunt.</p>
+																<div class="pt-2">
+																	<a href=".collapse-answer-3-2" data-toggle="collapse">Read less<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
+																</div>
+															</div>
+															<div class="collapse-answer-3-2 collapse show">
+																<div class="pt-2">
+																	<a href=".collapse-answer-3-2" data-toggle="collapse">Read more<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
+																</div>
+															</div>
+														</div>	
+													</div>
+													<div>
+														<div class="row justify-content-center">
+															<div class="col-10 col-sm-7">
+																<label class="radio-group-2 radio-group-corona mb-0">
+								                  <input type="checkbox" checked name="corona-3" value="1">
+								                  <div class="py-2 mx-2"><span class="male">Cardiovascular Disease</span></div>
+								                </label>
+															</div>
+														</div>
+														<div class="collapse-arrows mt-4 pb-3">
+															<p>A recent study based on global data reported significantly higher mortality rates in men than in women with confirmed cases of COVID-19.</p>
+															<div class="collapse-answer-3-3 collapse">
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum dolore, rerum obcaecati libero a sit odit, iure tempora! Corrupti sint commodi iste, accusamus neque optio cum, placeat. Sit, delectus ipsum.</p>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis maxime non fugit obcaecati, cupiditate corrupti quod natus rem at, in ratione omnis ab porro. Iste nobis error sit quia sunt.</p>
+																<div class="pt-2">
+																	<a href=".collapse-answer-3-3" data-toggle="collapse">Read less<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
+																</div>
+															</div>
+															<div class="collapse-answer-3-3 collapse show">
+																<div class="pt-2">
+																	<a href=".collapse-answer-3-3" data-toggle="collapse">Read more<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
+																</div>
+															</div>
+														</div>	
 													</div>
 												</div>
-												<div class="collapse-arrows mt-4 pb-3">
-													<p>A recent study based on global data reported significantly higher mortality rates in men than in women with confirmed cases of COVID-19.</p>
-													<div class="collapse-corona-3 collapse">
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum dolore, rerum obcaecati libero a sit odit, iure tempora! Corrupti sint commodi iste, accusamus neque optio cum, placeat. Sit, delectus ipsum.</p>
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis maxime non fugit obcaecati, cupiditate corrupti quod natus rem at, in ratione omnis ab porro. Iste nobis error sit quia sunt.</p>
-														<div class="pt-2">
-															<a href=".collapse-corona-3" data-toggle="collapse">Read less<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
-														</div>
-													</div>
-													<div class="collapse-corona-3 collapse show">
-														<div class="pt-2">
-															<a href=".collapse-corona-3" data-toggle="collapse">Read more<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
-														</div>
-													</div>
-												</div>		
 											</div>
 										</div>
 									</div>
 									<div>
 										<div class="pt-4 px-4">
 											<div class="row fz-16 font-weight-bold text-black">
-												<div class="col-sm-7 text-center text-sm-left mt-5 mt-sm-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam dolor et architecto?</div> 
+												<div class="col-sm-7 text-center text-sm-left mt-5 mt-sm-0">Do you have a history or were you diagnosed with any of the following medical conditions?</div> 
 											</div>
 										</div>
 										<ul class="nav nav-main nav-corona justify-content-center mt-4 mb-0">
 											<li class="nav-item">
-												<a class="nav-link active py-2" data-toggle="pill" href="#description4">
+												<a class="nav-link active py-2" data-toggle="pill" href="#description-4">
 													<span>Description</span>
 												</a>
 											</li>
 											<li class="nav-item">
-												<a class="nav-link py-2" data-toggle="pill" href="#answer4">
+												<a class="nav-link py-2" data-toggle="pill" href="#answer-4">
 													<span>Answer</span>
 												</a>
 											</li>
 										</ul>
 										<div class="tab-content p-4 fz-16 text-center">
-											<div class="tab-pane fade show active" id="description4">Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Facilis quia reprehenderit, sapiente labore.</div>
-											<div class="tab-pane fade" id="answer4">
-												<div class="row justify-content-center">
-													<div class="col-10 col-sm-7">
-														<div class="owl-2 owl-corona owl-carousel owl-theme">
-															<label class="radio-group-2 radio-group-corona mb-0">
-							                  <input type="checkbox" name="corona1" value="1">
-							                  <div class="py-2 mx-2"><span class="male">Cardiovascular Disease</span></div>
-							                </label>
-															<label class="radio-group-2 radio-group-corona mb-0">
-							                  <input type="checkbox" name="corona1" value="1">
-							                  <div class="py-2 mx-2"><span class="male">Cardiovascular Disease</span></div>
-							                </label>
-															<label class="radio-group-2 radio-group-corona mb-0">
-							                  <input type="checkbox" name="corona1" value="1">
-							                  <div class="py-2 mx-2"><span class="male">Cardiovascular Disease</span></div>
-							                </label>
+											<div class="tab-pane fade show active" id="description-4">Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Facilis quia reprehenderit.</div>
+											<div class="tab-pane fade" id="answer-4">
+												<div class="owl-corona">
+													<div>
+														<div class="row justify-content-center">
+															<div class="col-10 col-sm-7">
+																<label class="radio-group-2 radio-group-corona mb-0">
+								                  <input type="checkbox" checked name="corona-4" value="1">
+								                  <div class="py-2 mx-2"><span class="male">Cardiovascular Disease</span></div>
+								                </label>
+															</div>
 														</div>
+														<div class="collapse-arrows mt-4 pb-3">
+															<p>A recent study based on global data reported significantly higher mortality rates in men than in women with confirmed cases of COVID-19.</p>
+															<div class="collapse-answer-4-1 collapse">
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum dolore, rerum obcaecati libero a sit odit, iure tempora! Corrupti sint commodi iste, accusamus neque optio cum, placeat. Sit, delectus ipsum.</p>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis maxime non fugit obcaecati, cupiditate corrupti quod natus rem at, in ratione omnis ab porro. Iste nobis error sit quia sunt.</p>
+																<div class="pt-2">
+																	<a href=".collapse-answer-4-1" data-toggle="collapse">Read less<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
+																</div>
+															</div>
+															<div class="collapse-answer-4-1 collapse show">
+																<div class="pt-2">
+																	<a href=".collapse-answer-4-1" data-toggle="collapse">Read more<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div>
+														<div class="row justify-content-center">
+															<div class="col-10 col-sm-7">
+																<label class="radio-group-2 radio-group-corona mb-0">
+								                  <input type="checkbox" checked name="corona-4" value="1">
+								                  <div class="py-2 mx-2"><span class="male">Cardiovascular Disease</span></div>
+								                </label>
+															</div>
+														</div>
+														<div class="collapse-arrows mt-4 pb-3">
+															<p>A recent study based on global data reported significantly higher mortality rates in men than in women with confirmed cases of COVID-19.</p>
+															<div class="collapse-answer-4-2 collapse">
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum dolore, rerum obcaecati libero a sit odit, iure tempora! Corrupti sint commodi iste, accusamus neque optio cum, placeat. Sit, delectus ipsum.</p>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis maxime non fugit obcaecati, cupiditate corrupti quod natus rem at, in ratione omnis ab porro. Iste nobis error sit quia sunt.</p>
+																<div class="pt-2">
+																	<a href=".collapse-answer-4-2" data-toggle="collapse">Read less<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
+																</div>
+															</div>
+															<div class="collapse-answer-4-2 collapse show">
+																<div class="pt-2">
+																	<a href=".collapse-answer-4-2" data-toggle="collapse">Read more<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
+																</div>
+															</div>
+														</div>	
 													</div>
 												</div>
-												<div class="collapse-arrows mt-4 pb-3">
-													<p>A recent study based on global data reported significantly higher mortality rates in men than in women with confirmed cases of COVID-19.</p>
-													<div class="collapse-corona-4 collapse">
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum dolore, rerum obcaecati libero a sit odit, iure tempora! Corrupti sint commodi iste, accusamus neque optio cum, placeat. Sit, delectus ipsum.</p>
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis maxime non fugit obcaecati, cupiditate corrupti quod natus rem at, in ratione omnis ab porro. Iste nobis error sit quia sunt.</p>
-														<div class="pt-2">
-															<a href=".collapse-corona-4" data-toggle="collapse">Read less<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
-														</div>
-													</div>
-													<div class="collapse-corona-4 collapse show">
-														<div class="pt-2">
-															<a href=".collapse-corona-4" data-toggle="collapse">Read more<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
-														</div>
-													</div>
-												</div>		
 											</div>
 										</div>
 									</div>
 									<div>
 										<div class="pt-4 px-4">
 											<div class="row fz-16 font-weight-bold text-black">
-												<div class="col-sm-7 text-center text-sm-left mt-5 mt-sm-0">Lorem ipsum dolor sit, amet, consectetur adipisicing elit?</div> 
+												<div class="col-sm-7 text-center text-sm-left mt-5 mt-sm-0">Do you have a history or were you diagnosed with any of the following medical conditions?</div> 
 											</div>
 										</div>
 										<ul class="nav nav-main nav-corona justify-content-center mt-4 mb-0">
 											<li class="nav-item">
-												<a class="nav-link active py-2" data-toggle="pill" href="#description5">
+												<a class="nav-link active py-2" data-toggle="pill" href="#description-5">
 													<span>Description</span>
 												</a>
 											</li>
 											<li class="nav-item">
-												<a class="nav-link py-2" data-toggle="pill" href="#answer5">
+												<a class="nav-link py-2" data-toggle="pill" href="#answer-5">
 													<span>Answer</span>
 												</a>
 											</li>
 										</ul>
 										<div class="tab-content p-4 fz-16 text-center">
-											<div class="tab-pane fade show active" id="description5">Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Facilis quia reprehenderit, sapiente labore dignissimos.</div>
-											<div class="tab-pane fade" id="answer5">
-												<div class="row justify-content-center">
-													<div class="col-10 col-sm-7">
-														<div class="owl-2 owl-corona owl-carousel owl-theme">
-															<label class="radio-group-2 radio-group-corona mb-0">
-							                  <input type="checkbox" name="corona1" value="1">
-							                  <div class="py-2 mx-2"><span class="male">Cardiovascular Disease</span></div>
-							                </label>
-															<label class="radio-group-2 radio-group-corona mb-0">
-							                  <input type="checkbox" name="corona1" value="1">
-							                  <div class="py-2 mx-2"><span class="male">Cardiovascular Disease</span></div>
-							                </label>
-															<label class="radio-group-2 radio-group-corona mb-0">
-							                  <input type="checkbox" name="corona1" value="1">
-							                  <div class="py-2 mx-2"><span class="male">Cardiovascular Disease</span></div>
-							                </label>
+											<div class="tab-pane fade show active" id="description-5">Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Facilis quia reprehenderit.</div>
+											<div class="tab-pane fade" id="answer-5">
+												<div class="owl-corona">
+													<div>
+														<div class="row justify-content-center">
+															<div class="col-10 col-sm-7">
+																<label class="radio-group-2 radio-group-corona mb-0">
+								                  <input type="checkbox" checked name="corona-5" value="1">
+								                  <div class="py-2 mx-2"><span class="male">Cardiovascular Disease</span></div>
+								                </label>
+															</div>
+														</div>
+														<div class="collapse-arrows mt-4 pb-3">
+															<p>A recent study based on global data reported significantly higher mortality rates in men than in women with confirmed cases of COVID-19.</p>
+															<div class="collapse-answer-5-1 collapse">
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum dolore, rerum obcaecati libero a sit odit, iure tempora! Corrupti sint commodi iste, accusamus neque optio cum, placeat. Sit, delectus ipsum.</p>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis maxime non fugit obcaecati, cupiditate corrupti quod natus rem at, in ratione omnis ab porro. Iste nobis error sit quia sunt.</p>
+																<div class="pt-2">
+																	<a href=".collapse-answer-5-1" data-toggle="collapse">Read less<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
+																</div>
+															</div>
+															<div class="collapse-answer-5-1 collapse show">
+																<div class="pt-2">
+																	<a href=".collapse-answer-5-1" data-toggle="collapse">Read more<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
+																</div>
+															</div>
 														</div>
 													</div>
 												</div>
-												<div class="collapse-arrows mt-4 pb-3">
-													<p>A recent study based on global data reported significantly higher mortality rates in men than in women with confirmed cases of COVID-19.</p>
-													<div class="collapse-corona-5 collapse">
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum dolore, rerum obcaecati libero a sit odit, iure tempora! Corrupti sint commodi iste, accusamus neque optio cum, placeat. Sit, delectus ipsum.</p>
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis maxime non fugit obcaecati, cupiditate corrupti quod natus rem at, in ratione omnis ab porro. Iste nobis error sit quia sunt.</p>
-														<div class="pt-2">
-															<a href=".collapse-corona-5" data-toggle="collapse">Read less<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
-														</div>
-													</div>
-													<div class="collapse-corona-5 collapse show">
-														<div class="pt-2">
-															<a href=".collapse-corona-5" data-toggle="collapse">Read more<img src="img/arrow-right-green.svg" alt="" width="7" class="ml-2"></a>
-														</div>
-													</div>
-												</div>		
 											</div>
 										</div>
 									</div>
 								</div>
+
 							</div>
 						</div>
 					</div>
@@ -446,6 +553,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 		<script src="libs/owl-carousel-2/owl.carousel.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 		<script src="js/common.js"></script>
 	</body>
 </html>
