@@ -3524,6 +3524,12 @@ select.form-control-2 {
       background-image: url(../img/disease/header-12b.jpg) !important;
       padding-bottom: 270px !important; } }
 
+.header-13 {
+  background-image: url(../img/disease/header-13.jpg) !important; }
+  @media (max-width: 575.98px) {
+    .header-13 {
+      background-image: url(../img/disease/header-13b.jpg) !important; } }
+
 .card-age-2 {
   padding: 40px 60px 50px; }
 
@@ -3616,5 +3622,31 @@ select.form-control-2 {
 .owl-4 .owl-nav [class*=owl-] {
   width: 6.45px;
   height: 10.25px; }
+
+.nav-main-5 .nav-item {
+  font-size: 20px; }
+  @media (max-width: 575.98px) {
+    .nav-main-5 .nav-item {
+      font-size: 14px; }
+      .nav-main-5 .nav-item .nav-link {
+        padding: 34px 6px 31px; } }
+
+@media (max-width: 575.98px) {
+  .nav-main-6 .nav-item {
+    font-size: 15px;
+    min-width: 50%;
+    margin-bottom: 16px; }
+    .nav-main-6 .nav-item .nav-link:before {
+      display: none; } }
+
+@media (max-width: 575.98px) {
+  .notif-3 {
+    text-align: left; } }
+.notif-3 a {
+  color: #000;
+  font-weight: bold; }
+  .notif-3 a:hover {
+    color: #000;
+    opacity: 0.6; }
 
 /*# sourceMappingURL=style.css.map */
