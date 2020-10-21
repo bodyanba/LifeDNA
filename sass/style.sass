@@ -3717,9 +3717,19 @@ select
 		position: absolute
 		top: 50%
 		left: -26px
-		margin-top: -6.65px
+		transform: translateY(-50%)
 		background-image: url(../img/revamp/arr-2.svg)
 		background-size: cover
+		animation: blink 2s infinite
+		@media (max-width: 575.98px)
+			bottom: -26px
+			top: auto
+			left: 50%
+			transform: translateX(-50%) rotate(-90deg)
+
+@keyframes blink
+	50%
+		opacity: 0
 
 .blue-block
 	text-align: center
@@ -3736,8 +3746,7 @@ select
 	.bbb
 		padding: 20px 28px 30px
 		@media (max-width: 575.98px)
-			padding-left: 15px
-			padding-right: 15px
+			padding: 20px 15px 48px
 
 .link-header
 	color: inherit
