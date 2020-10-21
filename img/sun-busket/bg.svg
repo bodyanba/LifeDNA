@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="904" height="1056" viewBox="0 0 904 1056">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9fed98"/>
+      <stop offset="1" stop-color="#6dcc83"/>
+    </linearGradient>
+  </defs>
+  <path id="Объединение_4" data-name="Объединение 4" d="M391.126,1210.792C196.113,1160.658,52,983.658,52,773c0-249.633,202.367-452,452-452S956,523.367,956,773a450.243,450.243,0,0,1-42.691,192.008A287.352,287.352,0,0,1,941,1088.5c0,159.334-129.166,288.5-288.5,288.5C536.88,1377,437.148,1308.994,391.126,1210.792Z" transform="translate(-52 -321)" fill="url(#linear-gradient)"/>
+</svg>
