@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <g id="Alert" transform="translate(0 -0.25)">
+    <circle id="Эллипс_1" data-name="Эллипс 1" cx="12.5" cy="12.5" r="12.5" transform="translate(0 0.25)" fill="#f1a7a8"/>
+    <g id="Сгруппировать_146" data-name="Сгруппировать 146" transform="translate(4.731 4.684)">
+      <circle id="Эллипс_2" data-name="Эллипс 2" cx="7" cy="7" r="7" transform="translate(1.269 0.566)" fill="#fff"/>
+      <path id="ic24-alert" d="M9.885,2A7.885,7.885,0,1,1,2,9.885,7.885,7.885,0,0,1,9.885,2Zm0,1.577a6.308,6.308,0,1,0,6.308,6.308A6.308,6.308,0,0,0,9.885,3.577Zm0,9.463a.789.789,0,1,1-.789.789A.789.789,0,0,1,9.885,13.04Zm0-7.885a.789.789,0,0,1,.789.789v4.731a.789.789,0,1,1-1.577,0V5.943A.789.789,0,0,1,9.885,5.154Z" transform="translate(-2 -2)" fill="#d92f2f" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="541" height="541" viewBox="0 0 541 541">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.237" y1="0.343" x2="1.085" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#91f59e"/>
+      <stop offset="1" stop-color="#33c56e"/>
+    </linearGradient>
+  </defs>
+  <circle id="Эллипс_12" data-name="Эллипс 12" cx="270.5" cy="270.5" r="270.5" fill="url(#linear-gradient)"/>
+</svg>
