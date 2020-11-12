@@ -133,6 +133,8 @@ $(document).ready(function() {
 	$('.owl-corona').on('afterChange', function () {
 	  owl4.trigger('refresh.owl.carousel');
 	});
+	
+	$('[data-toggle="popover"]').popover();
 
 	var typed = new Typed('.element', {
 		strings: ["metabolism", "energy", "cognition", "mental health", "natural detoxification process", "immune response", "brain health"],
