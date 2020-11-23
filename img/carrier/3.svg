@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="main_green" transform="translate(-95 -247)">
+    <g id="main_green-2" data-name="main_green" transform="translate(0 188)">
+      <g id="Group_46" data-name="Group 46" transform="translate(66 -94)">
+        <g id="Group_235" data-name="Group 235" transform="translate(-16 -605)">
+          <g id="Group_211" data-name="Group 211" transform="translate(0 656)">
+            <g id="Group_206" data-name="Group 206">
+              <circle id="Ellipse_1" data-name="Ellipse 1" cx="24" cy="24" r="24" transform="translate(45 102)" fill="#ddefe2"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="XMLID_180_" transform="translate(90.309 258)">
+      <path id="XMLID_1004_" d="M181.44,135.494l-1.356,2.964c.09-.005.18-.009.271-.009a4.506,4.506,0,0,1,1.375.214l1.134-2.478A3.315,3.315,0,0,1,181.44,135.494Z" transform="translate(-155.727 -128.352)" fill="#25772f"/>
+      <path id="XMLID_1005_" d="M193.319,356.783l-1.174-1.7a4.489,4.489,0,0,1-1.635.417l1.518,2.2A3.339,3.339,0,0,1,193.319,356.783Z" transform="translate(-165.605 -336.367)" fill="#25772f"/>
+      <path id="XMLID_1006_" d="M269.08,266.421a4.517,4.517,0,0,1-.108.98l6.18.924c-.009-.1-.014-.2-.014-.3a3.435,3.435,0,0,1,.24-1.263l-6.34-.948A4.547,4.547,0,0,1,269.08,266.421Z" transform="translate(-239.929 -251.8)" fill="#25772f"/>
+      <path id="XMLID_1007_" d="M320.836,348.906l-4.434,3.058a3.311,3.311,0,0,1,.662,1.464l5.1-3.516A3.474,3.474,0,0,1,320.836,348.906Z" transform="translate(-284.859 -330.514)" fill="#25772f"/>
+      <path id="XMLID_1008_" d="M436.481,186.6v3.025a3.431,3.431,0,0,1,1.581,0V186.6a2.841,2.841,0,0,1-1.581,0Z" transform="translate(-398.608 -176.764)" fill="#25772f"/>
+      <path id="XMLID_1009_" d="M83.4,178.814l-1.464-1.748a3.159,3.159,0,0,1-1.234.989l1.64,1.958A4.558,4.558,0,0,1,83.4,178.814Z" transform="translate(-61.587 -167.732)" fill="#25772f"/>
+      <path id="XMLID_1010_" d="M82.411,313.225a3.357,3.357,0,0,1,1.1,1.133l1.079-1.051a4.539,4.539,0,0,1-.9-1.33Z" transform="translate(-63.203 -295.53)" fill="#25772f"/>
+      <path id="XMLID_1011_" d="M107.314,80.518a3.293,3.293,0,0,1-.188-1.6l-4.248,1.339a3.127,3.127,0,0,1,.647,1.454Z" transform="translate(-82.591 -74.759)" fill="#25772f"/>
+      <path id="XMLID_1012_" d="M38.151,449.534l.5,2.7,1.554-.291-.471-2.518a3.313,3.313,0,0,1-1.588.111Z" transform="translate(-21.276 -425.732)" fill="#25772f"/>
+      <path id="XMLID_1013_" d="M304.754,81.129l4.906,1.691a2.87,2.87,0,0,1-.027-.392,2.838,2.838,0,0,1,.265-1.2l-4.938-1.7a3.293,3.293,0,0,1-.206,1.6Z" transform="translate(-273.825 -75.335)" fill="#25772f"/>
+      <path id="XMLID_1014_" d="M386.318,4.242,383.9,0l-1.373.784,2.2,3.844a2.837,2.837,0,0,1,1.44-.391C386.211,4.237,386.265,4.239,386.318,4.242Z" transform="translate(-347.494)" fill="#25772f"/>
+      <ellipse id="XMLID_1015_" cx="2.942" cy="2.942" rx="2.942" ry="2.942" transform="translate(20.465 14.62) rotate(-45)" fill="#25772f"/>
+      <circle id="XMLID_1019_" cx="1.873" cy="1.873" r="1.873" transform="translate(36.01 16.224) rotate(-45)" fill="#25772f"/>
+      <path id="XMLID_1025_" d="M235.571,412.881a1.744,1.744,0,1,0,1.744,1.744A1.746,1.746,0,0,0,235.571,412.881Z" transform="translate(-206.637 -391.116)" fill="#25772f"/>
+      <circle id="XMLID_1029_" cx="1.744" cy="1.744" r="1.744" transform="translate(26.089 2.839)" fill="#25772f"/>
+      <circle id="XMLID_1033_" cx="1.274" cy="1.274" r="1.274" transform="translate(37.389 5.819)" fill="#25772f"/>
+      <circle id="XMLID_1038_" cx="1.559" cy="1.559" r="1.559" transform="translate(16.277 5.9)" fill="#25772f"/>
+      <path id="XMLID_1042_" d="M17.442,356.028a1.751,1.751,0,1,0,1.751,1.751A1.753,1.753,0,0,0,17.442,356.028Z" transform="translate(0 -337.26)" fill="#25772f"/>
+    </g>
+  </g>
+</svg>
