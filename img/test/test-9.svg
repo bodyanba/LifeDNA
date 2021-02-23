@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+    <defs>
+        <style>
+            .cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="Сгруппировать_912" transform="translate(-772 -4050)">
+        <g id="Сгруппировать_207" transform="translate(478 1894)">
+            <circle id="Эллипс_13" cx="22.5" cy="22.5" r="22.5" fill="#57d780" transform="translate(294 2156)"/>
+        </g>
+        <g id="circular-line-with-word-age-in-the-center" transform="translate(781 4053.155)">
+            <g id="Сгруппировать_911" transform="translate(0 5.845)">
+                <path id="Контур_753" d="M28.368 22.425L24.954 15.6l-3.413 6.827h2.3a11.22 11.22 0 1 1-.217-7.437l1.121-2.242a13.175 13.175 0 1 0 1.129 9.679h2.5z" class="cls-2" transform="translate(0 -5.845)"/>
+                <path id="Контур_754" d="M35.486 71.645h1.233l.374-1.349h1.5L39 71.645h1.278l-1.63-5.255h-1.56zm2.09-3.353c.086-.3.164-.7.242-1.014h.015c.078.311.172.7.266 1.014l.328 1.116h-1.162z" class="cls-2" transform="translate(-29.309 -55.852)"/>
+                <path id="Контур_755" d="M67.559 67.054a2.929 2.929 0 0 1 1.223.225l.25-.951a3.626 3.626 0 0 0-1.458-.258 2.714 2.714 0 0 0-3 2.745 2.547 2.547 0 0 0 .741 1.911 2.929 2.929 0 0 0 2.137.709 5.882 5.882 0 0 0 1.754-.3v-2.764h-1.959v.929h.812v1.1a1.713 1.713 0 1 1-.5-3.344z" class="cls-2" transform="translate(-53.332 -55.587)"/>
+                <path id="Контур_756" d="M99.783 67.369v-.974h-3.244v5.254h3.353v-.974h-2.16v-1.247h1.934v-.968h-1.934v-1.091z" class="cls-2" transform="translate(-79.736 -55.856)"/>
+            </g>
+        </g>
+    </g>
+</svg>

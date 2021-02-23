@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.619" height="19.619" viewBox="0 0 19.619 19.619">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="Icon_feather-plus-circle" transform="translate(1 1)">
+        <path id="Контур_12" d="M20.619 11.81A8.81 8.81 0 1 1 11.81 3a8.81 8.81 0 0 1 8.809 8.81z" class="cls-1" transform="translate(-3 -3)"/>
+        <path id="Контур_13" d="M18 12v7.048" class="cls-1" transform="translate(-9.19 -6.714)"/>
+        <path id="Контур_14" d="M12 18h7.048" class="cls-1" transform="translate(-6.714 -9.19)"/>
+    </g>
+</svg>
