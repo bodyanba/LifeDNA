@@ -4384,10 +4384,10 @@ textarea.f-c
 			border-bottom-right-radius: 3px
 
 .scroll-wrap
-	min-height: 304px
+	min-height: 320px
 	height: 0
 	@media (max-width: 767.98px)
-		min-height: 320px
+		min-height: 344px
 	.scroll	
 		height: 100%
 		overflow: auto
@@ -4413,15 +4413,31 @@ textarea.f-c
 				&:hover 
 					opacity: .4
 
-.custom-control-covid:not(.custom-switch)
-	font-size: 14px
-	padding-left: 22px
-	.custom-control-label
-		&:before, &:after 
+.radio-covid
+	cursor: pointer
+	input[type="radio"]
+		display: none
+		~ .fa-check
+			padding: 3px
+			position: relative
+			margin-right: 8px
+			display: inline-block
 			width: 12px
 			height: 12px
-			top: 4px
-			border-color: $color-success
+			font-size: 7px
+			color: #FFF
+			border: 1px solid $color-success
+			border-radius: 1px
+			&:before 
+				position: absolute
+				top: 50%
+				left: 50%
+				transform: translate(-50%, -50%)
+		&:checked
+			~ .fa-check
+				transition: .3s
+				color: #FFF
+				background: $color-success
 
 .modal-right
 	padding-right: 0 !important
@@ -4547,3 +4563,28 @@ select
 
 .border-2
 	border: 2px solid #f2f2f2
+
+.card-orange-3
+	padding-left: 50px
+	.list-check 
+		li 
+			padding-left: 26px
+			&:before 
+				width: 14px
+				height: 14px
+
+.link-yellow
+	color: #ffee00
+	font-weight: bold
+	text-decoration: underline
+	&:hover 
+		color: #ffee00
+		
+.img-question	
+	display: inline-block
+	width: 10px
+	height: 10px
+	border-radius: 100px
+	vertical-align: middle
+	background-image: url(../img/oto-platinum/icon.svg)
+	background-size: cover

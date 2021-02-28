@@ -4377,11 +4377,11 @@ textarea.f-c {
     border-bottom-right-radius: 3px; }
 
 .scroll-wrap {
-  min-height: 304px;
+  min-height: 320px;
   height: 0; }
   @media (max-width: 767.98px) {
     .scroll-wrap {
-      min-height: 320px; } }
+      min-height: 344px; } }
   .scroll-wrap .scroll {
     height: 100%;
     overflow: auto; }
@@ -4408,14 +4408,30 @@ textarea.f-c {
         .scroll-wrap .scroll .block a:hover {
           opacity: 0.4; }
 
-.custom-control-covid:not(.custom-switch) {
-  font-size: 14px;
-  padding-left: 22px; }
-  .custom-control-covid:not(.custom-switch) .custom-control-label:before, .custom-control-covid:not(.custom-switch) .custom-control-label:after {
-    width: 12px;
-    height: 12px;
-    top: 4px;
-    border-color: #41C752; }
+.radio-covid {
+  cursor: pointer; }
+  .radio-covid input[type="radio"] {
+    display: none; }
+    .radio-covid input[type="radio"] ~ .fa-check {
+      padding: 3px;
+      position: relative;
+      margin-right: 8px;
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      font-size: 7px;
+      color: #FFF;
+      border: 1px solid #41C752;
+      border-radius: 1px; }
+      .radio-covid input[type="radio"] ~ .fa-check:before {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+    .radio-covid input[type="radio"]:checked ~ .fa-check {
+      transition: 0.3s;
+      color: #FFF;
+      background: #41C752; }
 
 .modal-right {
   padding-right: 0 !important; }
@@ -4545,5 +4561,29 @@ select.form-control-test {
 
 .border-2 {
   border: 2px solid #f2f2f2; }
+
+.card-orange-3 {
+  padding-left: 50px; }
+  .card-orange-3 .list-check li {
+    padding-left: 26px; }
+    .card-orange-3 .list-check li:before {
+      width: 14px;
+      height: 14px; }
+
+.link-yellow {
+  color: #ffee00;
+  font-weight: bold;
+  text-decoration: underline; }
+  .link-yellow:hover {
+    color: #ffee00; }
+
+.img-question {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100px;
+  vertical-align: middle;
+  background-image: url(../img/oto-platinum/icon.svg);
+  background-size: cover; }
 
 /*# sourceMappingURL=style.css.map */

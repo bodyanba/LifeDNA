@@ -136,6 +136,22 @@ $(document).ready(function() {
 	
 	$('[data-toggle="popover"]').popover();
 
+	$('.scroll-to-plans').on('click', function(e) {
+		e.preventDefault();
+		var target = $(this).attr('href');
+		var top = 78;
+		if ($(this).hasClass("scroll-to-plans-no-header"))
+			top = 0
+		$('html, body').animate({ scrollTop: $(target).offset().top - top });
+	});
+
+  $(".size-content").hide();
+  $(".size-content:first-child").show();
+  $(".select-content").change(function() {
+    $('.size-content').hide();
+    $('#'+$(this).val()).show();
+  });
+
 	var input = document.querySelector("#phone");
 	var iti = window.intlTelInput(input, {
 	  // separateDialCode:true,
