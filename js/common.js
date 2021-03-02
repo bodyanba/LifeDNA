@@ -147,7 +147,7 @@ $(document).ready(function() {
 
   $(".size-content").hide();
   $(".size-content:first-child").show();
-  $(".select-content").change(function() {
+  $(".select-content").on("change", function() {
     $('.size-content').hide();
     $('#'+$(this).val()).show();
   });
