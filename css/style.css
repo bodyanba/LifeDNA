@@ -4586,4 +4586,45 @@ select.form-control-test {
   background-image: url(../img/oto-platinum/icon.svg);
   background-size: cover; }
 
+.card-locked {
+  padding: 0 !important;
+  position: relative; }
+  @media (max-width: 767.98px) {
+    .card-locked {
+      margin-top: 34px; } }
+  .card-locked .locked {
+    position: absolute;
+    top: -34px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 236px;
+    background: #e8e8e8;
+    font-size: 12px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 8px 30px; }
+
+.op-3 {
+  opacity: 0.3; }
+
+.bg-gray {
+  background: #e8e8e8; }
+
+@media (min-width: 1200px) {
+  .h-xl-75 {
+    height: 75% !important; } }
+
+@media (min-width: 991px) {
+  .h-xl-82 {
+    height: 82% !important; } }
+
+.grayscale {
+  filter: grayscale(1);
+  opacity: 0.6; }
+
+@media (min-width: 768px) {
+  .modal-right-2 .modal-dialog {
+    max-width: 400px; } }
+
 /*# sourceMappingURL=style.css.map */

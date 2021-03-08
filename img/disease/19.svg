@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38">
+    <defs>
+        <style>
+            .cls-2{fill:#acacac}
+        </style>
+    </defs>
+    <g id="Group_933" transform="translate(-954 -1652)">
+        <g id="Group_830" transform="translate(954 1652)">
+            <g id="Group_46">
+                <g id="Group_235">
+                    <g id="Group_211">
+                        <g id="Group_206">
+                            <circle id="Ellipse_1" cx="19" cy="19" r="19" fill="#e8e8e8"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="medicine" transform="rotate(45 -1514.644 2005.229)">
+            <path id="Path_870" d="M0 0v4.662a3.467 3.467 0 1 0 6.935 0V0z" class="cls-2" transform="translate(0 11.597)"/>
+            <path id="Path_871" d="M6.935 8.13V3.468a3.468 3.468 0 0 0-6.935 0V8.13z" class="cls-2" transform="translate(0 2.312)"/>
+            <path id="Path_872" d="M0 0v4.662a3.468 3.468 0 1 0 6.935 0V0z" class="cls-2" transform="translate(8.091 9.285)"/>
+            <path id="Path_873" d="M6.935 8.13V3.468a3.468 3.468 0 0 0-6.935 0V8.13z" class="cls-2" transform="translate(8.091)"/>
+        </g>
+    </g>
+</svg>
