@@ -4627,4 +4627,23 @@ select.form-control-test {
   .modal-right-2 .modal-dialog {
     max-width: 400px; } }
 
+.text-orange-2 {
+  color: #fda600; }
+
+.st-2 {
+  text-transform: initial; }
+
+.bunner-bg7 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  max-width: 140%; }
+  @media (max-width: 991.98px) {
+    .bunner-bg7 {
+      bottom: 0;
+      left: 16%;
+      right: auto;
+      max-width: 140%; } }
+
 /*# sourceMappingURL=style.css.map */
