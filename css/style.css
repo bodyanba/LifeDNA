@@ -4646,4 +4646,39 @@ select.form-control-test {
       right: auto;
       max-width: 140%; } }
 
+.header-PCOS {
+  padding-top: 150px !important;
+  padding-bottom: 202px !important;
+  background-image: url(../img/disease/header-PCOS.jpg) !important;
+  background-size: cover; }
+  @media (max-width: 575.98px) {
+    .header-PCOS {
+      padding-top: 57px !important;
+      padding-bottom: 360px !important;
+      background-image: url(../img/disease/header-PCOS-mobile.jpg) !important; } }
+
+.header-DNA {
+  padding-top: 90px !important;
+  padding-bottom: 100px !important;
+  background-image: url(../img/disease/header-PCOS.jpg) !important;
+  background-size: auto 100%; }
+  @media (max-width: 575.98px) {
+    .header-DNA {
+      padding-top: 57px !important;
+      padding-bottom: 360px !important;
+      background-image: url(../img/disease/header-PCOS-mobile.jpg) !important;
+      background-size: cover; } }
+
+.scroll-wrap-4 .scroll::-webkit-scrollbar {
+  width: 7px; }
+.scroll-wrap-4 .scroll::-webkit-scrollbar-track {
+  background-color: #F1F1F1;
+  border-radius: 4px; }
+.scroll-wrap-4 .scroll::-webkit-scrollbar-thumb {
+  background-color: #41C752;
+  border-radius: 4px; }
+
+.bg-green-4 {
+  background-color: #41c752 !important; }
+
 /*# sourceMappingURL=style.css.map */

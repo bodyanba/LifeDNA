@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="main_green" transform="translate(-541 -543)">
+    <g id="Group_235" data-name="Group 235" transform="translate(496 -215)">
+      <g id="Group_211" data-name="Group 211" transform="translate(0 656)">
+        <g id="Group_206" data-name="Group 206">
+          <circle id="Ellipse_1" data-name="Ellipse 1" cx="24" cy="24" r="24" transform="translate(45 102)" fill="#ddefe2"/>
+        </g>
+      </g>
+    </g>
+    <g id="blood-pressure" transform="translate(554.083 557.167)">
+      <g id="Group_28" data-name="Group 28">
+        <g id="Group_27" data-name="Group 27">
+          <path id="Path_39" data-name="Path 39" d="M236.485,173.4a.9.9,0,0,0-.455-.77v-1.5a.455.455,0,1,0-.91,0v1.5a.9.9,0,0,0-.455.77.91.91,0,0,0,1.82,0Z" transform="translate(-224.658 -163.389)" fill="#25772f"/>
+          <path id="Path_40" data-name="Path 40" d="M18.649,0a3.4,3.4,0,0,0-3.184,3.639c0,1.464,1.1,4.059,2.729,4.483V16.83a4.085,4.085,0,0,1-8.162.248c1.426-.181,2.7-.521,2.7-1.158V14.17a4.54,4.54,0,0,0,0-8.326V3.184c0-1.3-5.3-1.365-6.368-1.365S0,1.885,0,3.184V15.92c0,1.3,5.3,1.365,6.368,1.365.431,0,1.558-.012,2.747-.112a5,5,0,0,0,9.99-.343V8.122C20.729,7.7,21.833,5.1,21.833,3.639A3.4,3.4,0,0,0,18.649,0ZM1.4,3.184a23.853,23.853,0,0,1,4.97-.455,23.852,23.852,0,0,1,4.97.455,23.856,23.856,0,0,1-4.97.455A23.856,23.856,0,0,1,1.4,3.184Zm5.88,6.823a3.639,3.639,0,1,1,3.639,3.639A3.643,3.643,0,0,1,7.278,10.007Z" fill="#25772f"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
