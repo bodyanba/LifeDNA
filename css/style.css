@@ -4688,9 +4688,6 @@ select.form-control-test {
   background-position: center center;
   background-size: cover; }
 
-.shadow-oto {
-  box-shadow: 0 16px 40px rgba(112, 144, 176, 0.08); }
-
 .text-green {
   color: #41C752; }
 
@@ -4729,5 +4726,53 @@ select.form-control-test {
 
 .lh-1-2 {
   line-height: 1.2; }
+
+.div-insight-img {
+  position: absolute;
+  top: 5%;
+  left: 9%;
+  right: 9.3%; }
+
+.oto-warning-top {
+  color: #F97676;
+  background: #FBDEDE;
+  padding: 10px 20px;
+  font-size: 16px; }
+  @media (max-width: 575.98px) {
+    .oto-warning-top {
+      font-size: 14px; } }
+
+.oto-warning {
+  color: #F97676;
+  background: #FBDEDE;
+  padding: 10px 20px;
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2; }
+  @media (max-width: 991.98px) {
+    .oto-warning {
+      font-size: 12px; } }
+  @media (max-width: 575.98px) {
+    .oto-warning {
+      font-size: 8px;
+      padding: 6px 20px; } }
+
+.embed-oto:before {
+  padding-top: 63%; }
+@media (max-width: 767.98px) {
+  .embed-oto .play-button {
+    width: 45px;
+    height: 45px;
+    margin-top: 33%; } }
+@media (max-width: 575.98px) {
+  .embed-oto .play-button {
+    width: 30px;
+    height: 30px; } }
+
+.object-cover {
+  object-fit: cover; }
 
 /*# sourceMappingURL=style.css.map */
